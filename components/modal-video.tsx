@@ -8,6 +8,7 @@ import SecondaryIllustration from "@/public/images/secondary-illustration.svg";
 
 interface ModalVideoProps {
   thumb: StaticImageData;
+  thumb2: StaticImageData;
   thumbWidth: number;
   thumbHeight: number;
   thumbAlt: string;
@@ -18,6 +19,7 @@ interface ModalVideoProps {
 
 export default function ModalVideo({
   thumb,
+  thumb2,
   thumbWidth,
   thumbHeight,
   thumbAlt,
@@ -48,6 +50,7 @@ export default function ModalVideo({
       {/* Video thumbnail */}
       <button
         className="group relative flex items-center justify-center rounded-2xl focus:outline-hidden focus-visible:ring-3 focus-visible:ring-indigo-200"
+        style={{ width: thumbWidth, height: thumbHeight }}
         onClick={() => {
           setModalOpen(true);
         }}
@@ -55,24 +58,25 @@ export default function ModalVideo({
         data-aos="fade-up"
         data-aos-delay={200}
       >
-        <figure className="relative overflow-hidden rounded-2xl before:absolute before:inset-0 before:-z-10 before:bg-linear-to-br before:from-gray-900 before:via-indigo-500/20 before:to-gray-900">
+        {/* Thumbnail images and video */}
+        <div className="absolute inset-0 w-full h-full">
           <Image
             src={thumb}
-            alt={thumbAlt}
             width={thumbWidth}
             height={thumbHeight}
-            className="absolute inset-0 z-0"
+            alt={thumbAlt}
+            className="absolute inset-0 w-full h-full object-cover z-0"
           />
           <Image
-            src={thumb}
-            alt={thumbAlt}
+            src={thumb2}
             width={thumbWidth}
             height={thumbHeight}
-            className="absolute inset-0 z-[1] opacity-70"
+            alt={thumbAlt}
+            className="absolute inset-0 w-full h-full object-cover z-0 opacity-30"
           />
           <video
             ref={thumbnailRef}
-            className="relative z-[2] opacity-50 grayscale"
+            className="absolute inset-0 w-full h-full object-cover z-0 opacity-50 grayscale"
             width={thumbWidth}
             height={thumbHeight}
             muted
@@ -82,10 +86,13 @@ export default function ModalVideo({
           >
             <source src={video} type="video/mp4" />
           </video>
-        </figure>
-        {/* Play icon */}
-        <span className="pointer-events-none absolute p-2.5 before:absolute before:inset-0 before:rounded-full before:bg-gray-950 before:duration-300 group-hover:before:scale-110">
-          <span className="relative flex items-center gap-3">
+        </div>
+        {/* Play icon and label */}
+        <span className="absolute z-10 flex items-center gap-3 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+          {/* Overlay background */}
+          <span className="absolute inset-0 rounded-full bg-black/60" />
+          {/* Icon and text above overlay */}
+          <span className="relative flex items-center gap-3 px-4 py-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width={20}
@@ -112,9 +119,9 @@ export default function ModalVideo({
                 </linearGradient>
               </defs>
             </svg>
-            <span className="text-sm font-medium leading-tight text-gray-300">
+            <span className="text-sm font-medium leading-tight text-white">
               Watch Demo
-              <span className="text-gray-600"> - </span>
+              <span className="text-gray-200"> - </span>
               3:47
             </span>
           </span>

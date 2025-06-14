@@ -7,11 +7,21 @@ import Image from "next/image";
 import SecondaryIllustration from "@/public/images/secondary-illustration.svg";
 
 interface ModalVideoProps {
+  thumb: StaticImageData;
+  thumbWidth: number;
+  thumbHeight: number;
+  thumbAlt: string;
+  video: string;
   videoWidth: number;
   videoHeight: number;
 }
 
 export default function ModalVideo({
+  thumb,
+  thumbWidth,
+  thumbHeight,
+  thumbAlt,
+  video,
   videoWidth,
   videoHeight,
 }: ModalVideoProps) {
@@ -47,30 +57,30 @@ export default function ModalVideo({
       >
         <figure className="relative overflow-hidden rounded-2xl before:absolute before:inset-0 before:-z-10 before:bg-linear-to-br before:from-gray-900 before:via-indigo-500/20 before:to-gray-900">
           <Image
-            src="/images/bg-chart.png"
-            alt="Primary background chart"
-            width={videoWidth}
-            height={videoHeight}
+            src={thumb}
+            alt={thumbAlt}
+            width={thumbWidth}
+            height={thumbHeight}
             className="absolute inset-0 z-0"
           />
           <Image
-            src="/images/bg-chart-2.png"
-            alt="Secondary background chart"
-            width={videoWidth}
-            height={videoHeight}
+            src={thumb}
+            alt={thumbAlt}
+            width={thumbWidth}
+            height={thumbHeight}
             className="absolute inset-0 z-[1] opacity-70"
           />
           <video
             ref={thumbnailRef}
             className="relative z-[2] opacity-50 grayscale"
-            width={videoWidth}
-            height={videoHeight}
+            width={thumbWidth}
+            height={thumbHeight}
             muted
             loop
             playsInline
             autoPlay
           >
-            <source src="https://d3ounuq3r911zv.cloudfront.net/treza-xyz/treza.mp4" type="video/mp4" />
+            <source src={video} type="video/mp4" />
           </video>
         </figure>
         {/* Play icon */}
@@ -134,7 +144,7 @@ export default function ModalVideo({
                 loop
                 controls
               >
-                <source src="https://d3ounuq3r911zv.cloudfront.net/treza-xyz/treza.mp4" type="video/mp4" />
+                <source src={video} type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </DialogPanel>

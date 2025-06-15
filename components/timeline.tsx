@@ -3,15 +3,6 @@ export default function Timeline() {
     <section>
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="pb-12 md:pb-20">
-          {/* Section header */}
-          <div className="mx-auto max-w-3xl pb-12 text-center md:pb-20">
-            <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-            Building autonomous crypto execution
-            </h2>
-            <p className="text-lg text-indigo-200/65">
-              We started Treza to give crypto users real tools—not dashboards, but agents that act. We believe execution is the future of on-chain intelligence.
-            </p>
-          </div>
           {/* Items */}
           <div
             className="-my-4 mx-auto max-w-3xl md:-my-6"
@@ -76,7 +67,7 @@ export default function Timeline() {
                   </h4>
                 </div>
                 <p className="text-[1rem] text-indigo-200/65">
-                Released Treza’s Research & Execution Tools
+                Released Treza's Research & Execution Tools
                 From token analysis to whale tracking, our first suite of tools made it easy to generate insights and test agent-driven workflows.
                 </p>
               </div>

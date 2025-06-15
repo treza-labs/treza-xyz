@@ -2,13 +2,13 @@ import Image from 'next/image'
 
 import Client01 from '@/public/images/Claude_Logo_0.svg' // claude
 import Client02 from '@/public/images/openai-white-lockup.svg' // openai
-import Client03 from '@/public/images/deepseek-logo.webp' // deepseek
+import Client03 from '@/public/images/solanaWordMark.svg' // solana
 import Client04 from '@/public/images/eth-logo-white.svg' // ethereum
 
 const logos = [
   { src: Client01, alt: "Claude", height: 35 },
   { src: Client02, alt: "OpenAI", height: 35 },
-  { src: Client03, alt: "DeepSeek", height: 35 },
+  { src: Client03, alt: "Solana", height: 20 },
   { src: Client04, alt: "Ethereum", height: 35 },
 ];
 

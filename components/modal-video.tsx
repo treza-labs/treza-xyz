@@ -49,10 +49,12 @@ export default function ModalVideo({
 
       {/* Video thumbnail */}
       <button
-        className="group relative flex items-center justify-center rounded-2xl focus:outline-hidden focus-visible:ring-3 focus-visible:ring-indigo-200"
+        className="group relative flex items-center justify-center rounded-2xl focus:outline-hidden focus-visible:ring-3 focus-visible:ring-indigo-200 md:cursor-pointer"
         style={{ width: thumbWidth, height: thumbHeight }}
         onClick={() => {
-          setModalOpen(true);
+          if (window.innerWidth >= 768) { // Only open modal on desktop
+            setModalOpen(true);
+          }
         }}
         aria-label="Watch the video"
         data-aos="fade-up"
@@ -76,7 +78,7 @@ export default function ModalVideo({
           />
           <video
             ref={thumbnailRef}
-            className="absolute inset-0 w-full h-full object-cover z-0 opacity-50 grayscale"
+            className="absolute inset-0 w-full h-full object-cover z-0 opacity-50 grayscale hidden md:block"
             width={thumbWidth}
             height={thumbHeight}
             muted
@@ -87,8 +89,8 @@ export default function ModalVideo({
             <source src={video} type="video/mp4" />
           </video>
         </div>
-        {/* Play icon and label */}
-        <span className="absolute z-10 flex items-center gap-3 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+        {/* Play icon and label - only show on desktop */}
+        <span className="absolute z-10 flex items-center gap-3 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 hidden md:flex">
           {/* Overlay background */}
           <span className="absolute inset-0 rounded-full bg-black/60" />
           {/* Icon and text above overlay */}

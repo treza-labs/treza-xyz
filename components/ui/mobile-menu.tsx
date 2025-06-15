@@ -89,65 +89,74 @@ export default function MobileMenu() {
           <ul className="p-2 text-sm">
             <li>
               <Link
-                href="/pricing"
+                href="/team"
                 className="flex rounded-lg px-2 py-1.5 text-white hover:text-indigo-500"
                 onClick={() => setMobileNavOpen(false)}
               >
-                Pricing
+                Team
               </Link>
             </li>
             <li>
               <Link
-                href="/about"
+                href="/roadmap"
                 className="flex rounded-lg px-2 py-1.5 text-white hover:text-indigo-500"
                 onClick={() => setMobileNavOpen(false)}
               >
-                About Us
+                Roadmap
               </Link>
             </li>
             <li>
               <Link
-                href="/blog"
+                href="/agents"
                 className="flex rounded-lg px-2 py-1.5 text-white hover:text-indigo-500"
                 onClick={() => setMobileNavOpen(false)}
               >
-                Blog
+                Agents
               </Link>
             </li>
             <li>
               <Link
-                href="/help/frequently-asked-questions"
+                href="https://treza.gitbook.io/treza"
                 className="flex rounded-lg px-2 py-1.5 text-white hover:text-indigo-500"
                 onClick={() => setMobileNavOpen(false)}
               >
-                Help Centre
+                Documentation
               </Link>
             </li>
             <li>
               <Link
-                href="/newsletter"
+                href=""
                 className="flex rounded-lg px-2 py-1.5 text-white hover:text-indigo-500"
                 onClick={() => setMobileNavOpen(false)}
               >
-                Newsletter
+                REST API
               </Link>
             </li>
             <li>
               <Link
-                href="/contact"
+                href="https://github.com/treza-labs/treza-sdk"
                 className="flex rounded-lg px-2 py-1.5 text-white hover:text-indigo-500"
                 onClick={() => setMobileNavOpen(false)}
               >
-                Contact
+                Treza SDK
               </Link>
             </li>
             <li>
               <Link
-                href="/404"
+                href="https://github.com/treza-labs/treza-examples"
                 className="flex rounded-lg px-2 py-1.5 text-white hover:text-indigo-500"
                 onClick={() => setMobileNavOpen(false)}
               >
-                404
+                Examples
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="https://app.treza.xyz"
+                className="flex rounded-lg px-2 py-1.5 text-white hover:text-indigo-500"
+                onClick={() => setMobileNavOpen(false)}
+              >
+                Launch App
               </Link>
             </li>
           </ul>

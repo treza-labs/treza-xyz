@@ -72,11 +72,11 @@ export default function Timeline() {
                     aria-hidden="true"
                   />
                   <h4 className="font-nacelle text-xl font-semibold text-gray-200">
-                  Released Rhun’s Research & Execution Tools
+                  Released Treza's Research & Execution Tools
                   </h4>
                 </div>
                 <p className="text-[1rem] text-indigo-200/65">
-                Released Rhun’s Research & Execution Tools
+                Released Treza’s Research & Execution Tools
                 From token analysis to whale tracking, our first suite of tools made it easy to generate insights and test agent-driven workflows.
                 </p>
               </div>
@@ -139,7 +139,7 @@ export default function Timeline() {
                   </h4>
                 </div>
                 <p className="text-[1rem] text-indigo-200/65">
-                Our native token powers the next phase of Rhun—unlocking access to advanced agents, enabling staking for strategy validation, and aligning incentives across the network.
+                Our native token powers the next phase of Treza's access to advanced agents, enabling staking for strategy validation, and aligning incentives across the network.
                 </p>
               </div>
             </div>

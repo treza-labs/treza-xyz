@@ -1,0 +1,381 @@
+openapi: 3.0.0
+info:
+  title: TREZA API
+  version: 1.0.0
+  description: API for TREZA trading platform
+  x-gitbook-description-document:
+    object: document
+    data:
+      schemaVersion: 8
+    nodes:
+      - object: block
+        type: paragraph
+        isVoid: false
+        data: {}
+        nodes:
+          - object: text
+            leaves:
+              - object: leaf
+                text: API for TREZA trading platform
+                marks: []
+  x-gitbook-description-html: <p>API for TREZA trading platform</p>
+servers:
+  - url: https://app.treza.io
+    description: Production server
+    x-gitbook-description-html: <p>Production server</p>
+components:
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: x-api-key
+  schemas:
+    Error:
+      type: object
+      properties:
+        error:
+          type: string
+        details:
+          type: string
+    Agent:
+      type: object
+      properties:
+        id:
+          type: string
+        userId:
+          type: string
+        name:
+          type: string
+        description:
+          type: string
+        imageUrl:
+          type: string
+          nullable: true
+        createdAt:
+          type: string
+          format: date-time
+        updatedAt:
+          type: string
+          format: date-time
+        model:
+          type: string
+          enum:
+            - claude-3-5-sonnet-20240620
+            - deepseek-chat
+            - gpt-4-turbo
+            - mistral-large-latest
+        configuration:
+          type: object
+          properties:
+            coreCapabilities:
+              type: string
+              description: Core capabilities and knowledge domains of the agent
+              x-gitbook-description-html: <p>Core capabilities and knowledge domains of the agent</p>
+            interactionStyle:
+              type: string
+              description: How the agent should interact with users
+              x-gitbook-description-html: <p>How the agent should interact with users</p>
+            analysisApproach:
+              type: string
+              description: The agent's approach to analysis
+              x-gitbook-description-html: <p>The agent's approach to analysis</p>
+            riskCommunication:
+              type: string
+              description: How the agent communicates risks
+              x-gitbook-description-html: <p>How the agent communicates risks</p>
+            responseFormat:
+              type: string
+              description: Format for agent responses
+              x-gitbook-description-html: <p>Format for agent responses</p>
+            limitationsDisclaimers:
+              type: string
+              description: Limitations and disclaimers for the agent
+              x-gitbook-description-html: <p>Limitations and disclaimers for the agent</p>
+            prohibitedBehaviors:
+              type: string
+              description: Behaviors the agent must avoid
+              x-gitbook-description-html: <p>Behaviors the agent must avoid</p>
+            knowledgeUpdates:
+              type: string
+              description: How the agent should handle knowledge updates
+              x-gitbook-description-html: <p>How the agent should handle knowledge updates</p>
+            specialInstructions:
+              type: string
+              description: Special instructions for the agent
+              x-gitbook-description-html: <p>Special instructions for the agent</p>
+            wallets:
+              type: array
+              items:
+                type: object
+                properties:
+                  address:
+                    type: string
+                  network:
+                    type: string
+                  type:
+                    type: string
+paths:
+  /api/chat:
+    post:
+      summary: Chat with the AI
+      security:
+        - BearerAuth: []
+        - ApiKeyAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - messages
+                - agent
+              properties:
+                messages:
+                  type: array
+                  items:
+                    type: object
+                    required:
+                      - role
+                      - content
+                    properties:
+                      role:
+                        type: string
+                        enum:
+                          - user
+                          - assistant
+                          - system
+                      content:
+                        type: string
+                agent:
+                  type: object
+                  required:
+                    - id
+                    - userId
+                  properties:
+                    id:
+                      type: string
+                    userId:
+                      type: string
+      responses:
+        '200':
+          description: Chat response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  response:
+                    type: string
+          x-gitbook-description-html: <p>Chat response</p>
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+          x-gitbook-description-html: <p>Unauthorized</p>
+        '429':
+          description: Rate limit exceeded
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+          x-gitbook-description-html: <p>Rate limit exceeded</p>
+  /api/agents:
+    get:
+      summary: List agents
+      security:
+        - BearerAuth: []
+        - ApiKeyAuth: []
+      responses:
+        '200':
+          description: List of agents
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Agent'
+          x-gitbook-description-html: <p>List of agents</p>
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+          x-gitbook-description-html: <p>Unauthorized</p>
+    post:
+      summary: Create new agent
+      security:
+        - BearerAuth: []
+        - ApiKeyAuth: []
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                data:
+                  type: object
+                  description: Agent data object
+                  properties:
+                    name:
+                      type: string
+                      example: Crypto Analyst
+                    description:
+                      type: string
+                      example: A crypto analyst providing insights on market trends
+                    model:
+                      type: string
+                      enum:
+                        - claude-3-5-sonnet-20240620
+                        - deepseek-chat
+                        - gpt-4-turbo
+                        - mistral-large-latest
+                      example: claude-3-5-sonnet-20240620
+                    configuration:
+                      type: object
+                      properties:
+                        coreCapabilities:
+                          type: string
+                          example: Deep expertise in cryptocurrency markets...
+                        interactionStyle:
+                          type: string
+                          example: Professional yet approachable tone...
+                        analysisApproach:
+                          type: string
+                          example: Consider multiple perspectives...
+                        riskCommunication:
+                          type: string
+                          example: Always highlight potential risks...
+                        responseFormat:
+                          type: string
+                          example: |-
+                            1. Context
+                            2. Analysis
+                            3. Considerations
+                            4. Next Steps
+                        limitationsDisclaimers:
+                          type: string
+                          example: Clearly state when information is insufficient...
+                        prohibitedBehaviors:
+                          type: string
+                          example: Never make specific price predictions...
+                        knowledgeUpdates:
+                          type: string
+                          example: Base analysis on available historical data...
+                        specialInstructions:
+                          type: string
+                          example: >-
+                            When analyzing trends: 1. Start with longer
+                            timeframes...
+                  x-gitbook-description-html: <p>Agent data object</p>
+                image:
+                  type: string
+                  format: binary
+                  description: Agent profile image (optional)
+                  x-gitbook-description-html: <p>Agent profile image (optional)</p>
+      responses:
+        '201':
+          description: Agent created successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                  agentId:
+                    type: string
+                  userId:
+                    type: string
+                  imageUrl:
+                    type: string
+                    nullable: true
+          x-gitbook-description-html: <p>Agent created successfully</p>
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+          x-gitbook-description-html: <p>Unauthorized</p>
+  /api/watchers:
+    get:
+      summary: List watchers
+      security:
+        - BearerAuth: []
+        - ApiKeyAuth: []
+      responses:
+        '200':
+          description: List of watchers
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: string
+                    name:
+                      type: string
+                    type:
+                      type: string
+                    status:
+                      type: string
+          x-gitbook-description-html: <p>List of watchers</p>
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+          x-gitbook-description-html: <p>Unauthorized</p>
+    post:
+      summary: Create new watcher
+      security:
+        - BearerAuth: []
+        - ApiKeyAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                type:
+                  type: string
+                configuration:
+                  type: object
+      responses:
+        '201':
+          description: Watcher created successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                  name:
+                    type: string
+                  type:
+                    type: string
+                  status:
+                    type: string
+          x-gitbook-description-html: <p>Watcher created successfully</p>
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+          x-gitbook-description-html: <p>Unauthorized</p>

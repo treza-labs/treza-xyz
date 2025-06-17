@@ -27,7 +27,6 @@ export const metadata = {
                 </p>
               </div>
 
-
               {/* Technical Evolution Overview */}
               <div className="mx-auto max-w-5xl mb-16">
                 <h2 className="text-2xl font-nacelle font-semibold text-gray-200 mb-8 text-center">Technical Evolution</h2>

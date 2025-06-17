@@ -71,21 +71,29 @@ export const metadata = {
                 </div>
               </div>
 
-              {/* Detailed Phases */}
-              <div className="mx-auto max-w-4xl space-y-16">
-                
-                {/* Phase 1 */}
-                <div className="relative">
-                  <div className="flex items-center mb-6">
-                    <div className="flex items-center justify-center w-12 h-12 rounded-full bg-indigo-500/20 border border-indigo-500/30 mr-4">
-                      <span className="text-indigo-400 font-bold text-lg">1</span>
+                          {/* Detailed Phases */}
+            <div className="mx-auto max-w-4xl">
+              
+              {/* Phase 1 */}
+              <div className="relative py-8 pl-24">
+                <div className="pl-2">
+                  <div className="mb-2 flex items-center">
+                    <div className="absolute left-0 inline-flex rounded-full bg-indigo-500/25 px-2.5 py-0.5 text-sm font-semibold text-indigo-500">
+                      Phase 1
                     </div>
-                    <div>
-                      <h3 className="text-xl font-nacelle font-semibold text-gray-200">Phase 1: Reactive Tooling</h3>
-                      <p className="text-indigo-200/70">Enable AI agents to interface with real-time market data</p>
-                    </div>
+                    <div
+                      className="absolute left-0 ml-20 h-full -translate-x-1/2 translate-y-3 transform self-start bg-gray-800 px-px"
+                      aria-hidden="true"
+                    />
+                    <div
+                      className="absolute left-0 ml-20 box-content h-3 w-3 -translate-x-1/2 transform rounded-full border-4 border-gray-950 bg-indigo-500"
+                      aria-hidden="true"
+                    />
+                    <h3 className="text-xl font-nacelle font-semibold text-gray-200">Reactive Tooling</h3>
                   </div>
-                  <div className="pl-16">
+                  <p className="text-indigo-200/70 mb-6">Enable AI agents to interface with real-time market data</p>
+                </div>
+                <div className="pl-2">
                     <div className="mb-4">
                       <h4 className="text-lg font-semibold text-indigo-300 mb-2">Objective</h4>
                       <p className="text-gray-300 mb-4">Enable AI agents to interface with real-time market data and wallet activity using modular tool calls.</p>
@@ -111,17 +119,25 @@ export const metadata = {
                 </div>
 
                 {/* Phase 2 */}
-                <div className="relative">
-                  <div className="flex items-center mb-6">
-                    <div className="flex items-center justify-center w-12 h-12 rounded-full bg-indigo-500/20 border border-indigo-500/30 mr-4">
-                      <span className="text-indigo-400 font-bold text-lg">2</span>
+                <div className="relative py-8 pl-24">
+                  <div className="pl-2">
+                    <div className="mb-2 flex items-center">
+                      <div className="absolute left-0 inline-flex rounded-full bg-indigo-500/25 px-2.5 py-0.5 text-sm font-semibold text-indigo-500">
+                        Phase 2
+                      </div>
+                      <div
+                        className="absolute left-0 ml-20 h-full -translate-x-1/2 translate-y-3 transform self-start bg-gray-800 px-px"
+                        aria-hidden="true"
+                      />
+                      <div
+                        className="absolute left-0 ml-20 box-content h-3 w-3 -translate-x-1/2 transform rounded-full border-4 border-gray-950 bg-indigo-500"
+                        aria-hidden="true"
+                      />
+                      <h3 className="text-xl font-nacelle font-semibold text-gray-200">Agent Runtime & Strategy Execution</h3>
                     </div>
-                    <div>
-                      <h3 className="text-xl font-nacelle font-semibold text-gray-200">Phase 2: Agent Runtime & Strategy Execution</h3>
-                      <p className="text-indigo-200/70">Move beyond analysis—enable real execution</p>
-                    </div>
+                    <p className="text-indigo-200/70 mb-6">Move beyond analysis—enable real execution</p>
                   </div>
-                  <div className="pl-16">
+                  <div className="pl-2">
                     <div className="mb-4">
                       <h4 className="text-lg font-semibold text-indigo-300 mb-2">Objective</h4>
                       <p className="text-gray-300 mb-4">Move beyond analysis—enable agents to execute real trades, strategies, and actions using deterministic runtimes.</p>
@@ -147,17 +163,25 @@ export const metadata = {
                 </div>
 
                 {/* Phase 3 */}
-                <div className="relative">
-                  <div className="flex items-center mb-6">
-                    <div className="flex items-center justify-center w-12 h-12 rounded-full bg-indigo-500/20 border border-indigo-500/30 mr-4">
-                      <span className="text-indigo-400 font-bold text-lg">3</span>
+                <div className="relative py-8 pl-24">
+                  <div className="pl-2">
+                    <div className="mb-2 flex items-center">
+                      <div className="absolute left-0 inline-flex rounded-full bg-indigo-500/25 px-2.5 py-0.5 text-sm font-semibold text-indigo-500">
+                        Phase 3
+                      </div>
+                      <div
+                        className="absolute left-0 ml-20 h-full -translate-x-1/2 translate-y-3 transform self-start bg-gray-800 px-px"
+                        aria-hidden="true"
+                      />
+                      <div
+                        className="absolute left-0 ml-20 box-content h-3 w-3 -translate-x-1/2 transform rounded-full border-4 border-gray-950 bg-indigo-500"
+                        aria-hidden="true"
+                      />
+                      <h3 className="text-xl font-nacelle font-semibold text-gray-200">Trustless Compute Infrastructure</h3>
                     </div>
-                    <div>
-                      <h3 className="text-xl font-nacelle font-semibold text-gray-200">Phase 3: Trustless Compute Infrastructure</h3>
-                      <p className="text-indigo-200/70">Ensure verifiable, reproducible, and secure execution</p>
-                    </div>
+                    <p className="text-indigo-200/70 mb-6">Ensure verifiable, reproducible, and secure execution</p>
                   </div>
-                  <div className="pl-16">
+                  <div className="pl-2">
                     <div className="mb-4">
                       <h4 className="text-lg font-semibold text-indigo-300 mb-2">Objective</h4>
                       <p className="text-gray-300 mb-4">Ensure agent actions are verifiable, reproducible, and secure within sandboxed environments.</p>
@@ -187,17 +211,25 @@ export const metadata = {
                 </div>
 
                 {/* Phase 4 */}
-                <div className="relative">
-                  <div className="flex items-center mb-6">
-                    <div className="flex items-center justify-center w-12 h-12 rounded-full bg-indigo-500/20 border border-indigo-500/30 mr-4">
-                      <span className="text-indigo-400 font-bold text-lg">4</span>
+                <div className="relative py-8 pl-24">
+                  <div className="pl-2">
+                    <div className="mb-2 flex items-center">
+                      <div className="absolute left-0 inline-flex rounded-full bg-indigo-500/25 px-2.5 py-0.5 text-sm font-semibold text-indigo-500">
+                        Phase 4
+                      </div>
+                      <div
+                        className="absolute left-0 ml-20 h-full -translate-x-1/2 translate-y-3 transform self-start bg-gray-800 px-px"
+                        aria-hidden="true"
+                      />
+                      <div
+                        className="absolute left-0 ml-20 box-content h-3 w-3 -translate-x-1/2 transform rounded-full border-4 border-gray-950 bg-indigo-500"
+                        aria-hidden="true"
+                      />
+                      <h3 className="text-xl font-nacelle font-semibold text-gray-200">Token-Gated Coordination Layer</h3>
                     </div>
-                    <div>
-                      <h3 className="text-xl font-nacelle font-semibold text-gray-200">Phase 4: Token-Gated Coordination Layer</h3>
-                      <p className="text-indigo-200/70">Coordinate resources through token-powered economics</p>
-                    </div>
+                    <p className="text-indigo-200/70 mb-6">Coordinate resources through token-powered economics</p>
                   </div>
-                  <div className="pl-16">
+                  <div className="pl-2">
                     <div className="mb-4">
                       <h4 className="text-lg font-semibold text-indigo-300 mb-2">Objective</h4>
                       <p className="text-gray-300 mb-4">Coordinate resource access and strategy reputation through a token-powered economic system.</p>
@@ -227,17 +259,21 @@ export const metadata = {
                 </div>
 
                 {/* Phase 5 */}
-                <div className="relative">
-                  <div className="flex items-center mb-6">
-                    <div className="flex items-center justify-center w-12 h-12 rounded-full bg-indigo-500/20 border border-indigo-500/30 mr-4">
-                      <span className="text-indigo-400 font-bold text-lg">5</span>
+                <div className="relative py-8 pl-24">
+                  <div className="pl-2">
+                    <div className="mb-2 flex items-center">
+                      <div className="absolute left-0 inline-flex rounded-full bg-indigo-500/25 px-2.5 py-0.5 text-sm font-semibold text-indigo-500">
+                        Phase 5
+                      </div>
+                      <div
+                        className="absolute left-0 ml-20 box-content h-3 w-3 -translate-x-1/2 transform rounded-full border-4 border-gray-950 bg-indigo-500"
+                        aria-hidden="true"
+                      />
+                      <h3 className="text-xl font-nacelle font-semibold text-gray-200">Distributed Agent Ecosystem</h3>
                     </div>
-                    <div>
-                      <h3 className="text-xl font-nacelle font-semibold text-gray-200">Phase 5: Distributed Agent Ecosystem</h3>
-                      <p className="text-indigo-200/70">Scale into a decentralized agent economy</p>
-                    </div>
+                    <p className="text-indigo-200/70 mb-6">Scale into a decentralized agent economy</p>
                   </div>
-                  <div className="pl-16">
+                  <div className="pl-2">
                     <div className="mb-4">
                       <h4 className="text-lg font-semibold text-indigo-300 mb-2">Objective</h4>
                       <p className="text-gray-300 mb-4">Scale Treza into a decentralized agent economy with permissionless execution and autonomous coordination.</p>

@@ -26,6 +26,7 @@ export const metadata = {
                   Treza is building a secure, scalable execution layer for crypto-native agents. This roadmap outlines our infrastructure-first approach—moving from modular data tools to full agent autonomy through sandboxed compute, delegated signing, and decentralized orchestration.
                 </p>
               </div>
+              
 
               {/* Technical Evolution Overview */}
               <div className="mx-auto max-w-5xl mb-16">

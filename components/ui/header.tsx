@@ -43,14 +43,14 @@ export default function Header() {
                   Roadmap
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   href="/agents"
                   className="flex items-center px-2 py-1 text-gray-200 transition hover:text-indigo-500 lg:px-3"
                 >
                   Agents
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   href="https://treza.gitbook.io/treza"

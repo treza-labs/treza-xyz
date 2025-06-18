@@ -11,23 +11,23 @@ import SmallTestimonialImg from "@/public/images/small-testimonial.jpg";
 
 const tabs = [
   {
-    title: "Autonomous Sync",
+    title: "Verifiable Execution",
     description:
-      "Link agent decisions across flows and portfolios—creating real coordination without the micromanagement.",
+      "Cryptographic attestation for code integrity and environment validation, ensuring all agent logic runs in sealed, tamper-proof environments.",
     img: CarouselImg01,
     imgAlt: "Carousel image 01",
   },
   {
-    title: "Execution-First Design",
+    title: "Scalable Orchestration",
     description:
-      "Agents are wired to act, not just observe. Every decision point is connected to live trading or alert triggers.",
+      "Agent orchestration with task scheduling, retry logic, and event-based triggering, built to handle everything from single agents to distributed fleets.",
     img: CarouselImg02,
     imgAlt: "Carousel image 02",
   },
   {
-    title: "Built to Scale",
+    title: "Decentralized Network",
     description:
-      "Treza works for solo researchers and institutional funds alike. Deploy agents at any scale—no DevOps, no ceiling.",
+      "Distributed enclave provisioning across global node operators with token-governed resource allocation, the foundation for autonomous agent economies.",
     img: CarouselImg03,
     imgAlt: "Carousel image 03",
   },
@@ -46,16 +46,16 @@ export default function SplitCarousel() {
               <div className="shrink-0 md:w-[500px] *:pl-7">
                 <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-linear-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-linear-to-l after:from-transparent after:to-indigo-200/50">
                   <span className="inline-flex bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                  Agent Standard
+                  Secure Infrastructure
                   </span>
                 </div>
                 <div className="relative mb-6 border-l [border-image:linear-gradient(to_bottom,transparent,--theme(--color-slate-400/.25),transparent)1] after:absolute after:left-0 after:top-0 after:h-4 after:w-px after:origin-bottom after:-translate-y-full after:animate-shine after:bg-[linear-gradient(180deg,transparent,--theme(--color-indigo-500/.5)_25%,--theme(--color-indigo-500)_50%,--theme(--color-indigo-500/.5)_75%,transparent)] after:opacity-0">
                   <div className="mb-4">
                     <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-                    Smarter execution, lower latency
+                    Hardware-secured agent execution
                     </h2>
                     <p className="text-indigo-200/65">
-                    Treza agents are purpose-built for automation. Under the hood is a scalable infrastructure designed for real-time action across tokens, wallets, and markets.
+                    Treza's infrastructure enables agents to hold keys, execute financial logic, and coordinate across networks with cryptographic guarantees and hardware-level security.
                     </p>
                   </div>
 
@@ -90,7 +90,7 @@ export default function SplitCarousel() {
                 </div>
                 <div>
                   <p className="mb-4 font-nacelle text-gray-200">
-                    “The speed at which we got agents running was wild. We had signals and trades flowing same day”
+                    "The infrastructure approach is what sold us. Finally, agents that can execute with the same security guarantees as traditional systems."
                   </p>
                   <div className="flex items-center gap-3">
                     <Image
@@ -101,13 +101,13 @@ export default function SplitCarousel() {
                       alt="Small testimonial"
                     />
                     <div className="text-sm font-medium text-gray-200">
-                      <span>Ben R.</span>
+                      <span>Sarah Chen</span>
                       <span className="text-gray-700"> - </span>
                       <a
                         className="text-indigo-200/65 transition-colors hover:text-indigo-500"
                         href="#0"
                       >
-                        Tact Fund
+                        Protocol Labs
                       </a>
                     </div>
                   </div>

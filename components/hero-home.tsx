@@ -34,7 +34,7 @@ export default function HeroHome() {
               className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-5 font-nacelle text-4xl font-semibold text-transparent md:text-5xl"
               data-aos="fade-up"
             >
-              The AI execution layer for crypto
+              Building autonomous crypto execution
             </h1>
             <div className="mx-auto max-w-3xl">
               <p
@@ -42,8 +42,7 @@ export default function HeroHome() {
                 data-aos="fade-up"
                 data-aos-delay={200}
               >
-                AI infrastructure for crypto teams.
-                Build and deploy one-click AI agents that act on market data and execute your strategy. Programmable, flexible, and lightning fast.
+                Secure, scalable infrastructure for crypto-native agents. Sandboxed compute, delegated signing, and decentralized orchestration built for autonomous execution.
               </p>
               <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
                 <div data-aos="fade-up" data-aos-delay={400}>

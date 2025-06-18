@@ -36,14 +36,14 @@ export default function Features() {
           <div className="mx-auto max-w-3xl pb-4 text-center md:pb-12">
             <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-linear-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-linear-to-l after:from-transparent after:to-indigo-200/50">
               <span className="inline-flex bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                AI For Crypto
+                Infrastructure First
               </span>
             </div>
             <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-            Built for research-driven funds
+            Infrastructure built for autonomous agents
             </h2>
             <p className="text-lg text-indigo-200/65">
-            AI agents equipped with data, tools, and execution logic—built to trade, adapt, and act instantly across any market, with zero manual intervention.
+            Before agents can scale, they need secure, reliable infrastructure to interact with crypto systems. Treza provides the foundational layer that makes autonomous execution possible.
             </p>
           </div>
           <div className="flex justify-center pb-4 md:pb-12" data-aos="fade-up">
@@ -71,10 +71,10 @@ export default function Features() {
                 />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-              Autonomous Agents
+              Secure Enclaves
               </h3>
               <p className="text-indigo-200/65">
-              Deploy AI agents equipped to analyze, monitor, and execute—fully automated, always on, and designed to act faster than any human ever could.
+              Single-use compute environments with zero network exposure, cryptographic attestation for code integrity, and tamper-resistant logging for every execution.
               </p>
             </article>
             <article>
@@ -88,10 +88,10 @@ export default function Features() {
                 <path d="M19 6H0v2h17v8H7v-6H5v8h19v-2h-5V6Z" />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Agent Terminal
+                Delegated Signing
               </h3>
               <p className="text-indigo-200/65">
-              Manage and observe all agent activity in one view. Fine-tune behavior, monitor performance, and keep your strategies aligned with your goals.
+              Multi-key custody support with secure channel communication and encrypted payloads, keeping your execution safe while enabling agent autonomy.
               </p>
             </article>
             <article>
@@ -108,10 +108,10 @@ export default function Features() {
                 />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-              Automated Market Analysis
+              Task Orchestration
               </h3>
               <p className="text-indigo-200/65">
-              Your agents continuously scan wallets, tokens, and market shifts—surfacing trade-ready insights and acting on them in real time.
+              Agent orchestration with task scheduling, retry logic, and event-based triggering from market or system signals, built for reliability at scale.
               </p>
             </article>
             <article>
@@ -156,7 +156,7 @@ export default function Features() {
               Modular Workflows
               </h3>
               <p className="text-indigo-200/65">
-                Build layered agent logic that adapts to your needs—automate tracking, execution, alerts, and more using powerful, reusable components.
+                Build layered agent logic that adapts to your needs, automate tracking, execution, alerts, and more using powerful, reusable components.
               </p>
             </article>
             <article>

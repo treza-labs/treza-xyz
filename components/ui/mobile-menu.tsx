@@ -125,7 +125,7 @@ export default function MobileMenu() {
             </li>
             <li>
               <Link
-                href="https://treza.gitbook.io/treza"
+                href="https://treza.gitbook.io/treza/developers/rest-api"
                 className="flex rounded-lg px-2 py-1.5 text-white hover:text-indigo-500"
                 onClick={() => setMobileNavOpen(false)}
               >
@@ -143,7 +143,7 @@ export default function MobileMenu() {
             </li>
             <li>
               <Link
-                href="https://github.com/treza-labs/treza-examples"
+                href="https://github.com/treza-labs/treza-sdk/blob/main/examples"
                 className="flex rounded-lg px-2 py-1.5 text-white hover:text-indigo-500"
                 onClick={() => setMobileNavOpen(false)}
               >

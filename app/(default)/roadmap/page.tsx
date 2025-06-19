@@ -1,6 +1,6 @@
 export const metadata = {
     title: "Roadmap - Treza",
-    description: "Building autonomous crypto execution - Treza's technical roadmap",
+    description: "Secure enclaves for crypto transactions - Treza's technical roadmap",
   };
   
   import PageIllustration from "@/components/page-illustration";
@@ -20,7 +20,7 @@ export const metadata = {
                   </span>
                 </div>
                 <h1 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-                  Building autonomous crypto execution
+                Secure enclaves for crypto transactions
                 </h1>
                 <p className="text-lg text-indigo-200/65 mb-8">
                   Treza is building a secure, scalable execution layer for crypto-native agents. This roadmap outlines our infrastructure-first approach—moving from modular data tools to full agent autonomy through sandboxed compute, delegated signing, and decentralized orchestration.

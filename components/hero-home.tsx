@@ -51,7 +51,7 @@ export default function HeroHome() {
                     href="https://app.treza.xyz"
                   >
                     <span className="relative inline-flex items-center">
-                      Launch Agents
+                      Deploy Enclaves
                       <span className="ml-1 tracking-normal text-white/50 transition-transform group-hover:translate-x-0.5">
                         -&gt;
                       </span>

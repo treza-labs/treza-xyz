@@ -20,7 +20,7 @@ export default function Clients() {
           {/* Section header */}
           <div className="mx-auto max-w-3xl pb-12 text-center md:pb-20">
             <h2 className="aos-init aos-animate animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text font-nacelle text-3xl font-semibold text-transparent md:text-4xl pb-4">
-              Key Integrations Built In
+              Key integrations built in
             </h2>
             <p className="text-lg text-indigo-200/65">
               Treza's secure execution layer connects seamlessly with the AI models, blockchains, and data sources that power autonomous crypto agents from reasoning to execution.

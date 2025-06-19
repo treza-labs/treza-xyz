@@ -42,7 +42,7 @@ export default function HeroHome() {
                 data-aos="fade-up"
                 data-aos-delay={200}
               >
-                Secure, scalable infrastructure for crypto-native agents. Sandboxed compute, delegated signing, and decentralized orchestration built for autonomous execution.
+                Sandboxed compute, delegated signing, and decentralized orchestration built for autonomous execution.
               </p>
               <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
                 <div data-aos="fade-up" data-aos-delay={400}>

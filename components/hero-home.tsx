@@ -42,7 +42,7 @@ export default function HeroHome() {
                 data-aos="fade-up"
                 data-aos-delay={200}
               >
-                Isolated compute, delegated signing, and real-time coordination for crypto-native workflows.
+                Trusted compute, automated execution, and secure key management for crypto-native agents.
               </p>
               <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
                 <div data-aos="fade-up" data-aos-delay={400}>

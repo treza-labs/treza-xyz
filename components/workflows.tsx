@@ -20,7 +20,7 @@ export default function Workflows() {
               Secure, reliable agent execution
             </h2>
             <p className="text-lg text-indigo-200/65">
-            Launch the core infrastructure that allows agents to be deployed, triggered, and monitored in real-time, abstracting away wallet control and execution complexity.
+            Deploy and operate crypto agents inside secure enclaves with isolated compute, scoped key access, and real-time orchestration, without managing private keys or backend complexity.
             </p>
           </div>
           {/* Spotlight items */}

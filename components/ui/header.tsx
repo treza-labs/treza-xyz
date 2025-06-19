@@ -53,7 +53,7 @@ export default function Header() {
               </li> */}
               <li>
                 <Link
-                  href="https://treza.gitbook.io/treza"
+                  href="https://docs.treza.xyz"
                   className="flex items-center px-2 py-1 text-gray-200 transition hover:text-indigo-500 lg:px-3"
                 >
                   Documentation
@@ -64,7 +64,7 @@ export default function Header() {
                 {/* 2nd level: hover */}
                 <li>
                   <Link
-                    href="https://treza.gitbook.io/treza/developers/rest-api"
+                    href="https://docs.treza.xyz/developers/rest-api"
                     className="flex rounded-lg px-2 py-1.5 text-sm text-white hover:text-indigo-500"
                   >
                     REST API

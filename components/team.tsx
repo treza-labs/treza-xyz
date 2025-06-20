@@ -1,79 +1,79 @@
 import Image from "next/image";
 
-import TeamImg01 from "@/public/images/team-01.jpg";
-import TeamImg02 from "@/public/images/team-02.jpg";
-import TeamImg03 from "@/public/images/team-03.jpg";
-import TeamImg04 from "@/public/images/team-04.jpg";
-import TeamImg05 from "@/public/images/team-05.jpg";
-import TeamImg06 from "@/public/images/team-06.jpg";
-import TeamImg07 from "@/public/images/team-07.jpg";
-import TeamImg08 from "@/public/images/team-08.jpg";
-import TeamImg09 from "@/public/images/team-09.jpg";
-import TeamImg10 from "@/public/images/team-10.jpg";
-import TeamImg11 from "@/public/images/team-11.jpg";
-import TeamImg12 from "@/public/images/team-12.jpg";
+import TeamImg01 from "@/public/images/team-00.jpg";
+import TeamImg02 from "@/public/images/guo.jpg";
+// import TeamImg03 from "@/public/images/team-03.jpg";
+// import TeamImg04 from "@/public/images/team-04.jpg";
+// import TeamImg05 from "@/public/images/team-05.jpg";
+// import TeamImg06 from "@/public/images/team-06.jpg";
+// import TeamImg07 from "@/public/images/team-07.jpg";
+// import TeamImg08 from "@/public/images/team-08.jpg";
+// import TeamImg09 from "@/public/images/team-09.jpg";
+// import TeamImg10 from "@/public/images/team-10.jpg";
+// import TeamImg11 from "@/public/images/team-11.jpg";
+// import TeamImg12 from "@/public/images/team-12.jpg";
 
 const teamMembers = [
   {
     image: TeamImg01,
-    name: "Lara Lamprecht",
-    role: "CEO and Founder",
+    name: "Alex Daro",
+    role: "Co Founder, Developer",
   },
-  {
-    image: TeamImg02,
-    name: "Timothy Chandran",
-    role: "Head of Sales",
-  },
-  {
-    image: TeamImg03,
-    name: "Marie Koniuszek",
-    role: "Customer Success Lead",
-  },
-  {
-    image: TeamImg04,
-    name: "Alyssa Chuzeville",
-    role: "Head of Product",
-  },
-  {
-    image: TeamImg05,
-    name: "Dominik Prasad",
-    role: "Senior Researcher",
-  },
-  {
-    image: TeamImg06,
-    name: "Darya Semenova",
-    role: "Software Engineer",
-  },
-  {
-    image: TeamImg07,
-    name: "Mary Pullgat",
-    role: "Software Engineer",
-  },
-  {
-    image: TeamImg08,
-    name: "Quentin Renvoye",
-    role: "Senior Marketing Manager",
-  },
-  {
-    image: TeamImg09,
-    name: "Justin Jackson",
-    role: "Content & SEO Lead",
-  },
-  {
-    image: TeamImg10,
-    name: "Alice Nguyen",
-    role: "Engineering Manager",
-  },
-  {
-    image: TeamImg11,
-    name: "Duyk Hermann",
-    role: "Product Designer",
-  },
-  {
-    image: TeamImg12,
-    name: "Kevon Cheung",
-    role: "Creative Director",
-  },
+  // {
+  //   image: TeamImg02,
+  //   name: "Guo",
+  //   role: "Co Founder, Head of Sales",
+  // },
+  // {
+  //   image: TeamImg03,
+  //   name: "Marie Koniuszek",
+  //   role: "Customer Success Lead",
+  // },
+  // {
+  //   image: TeamImg04,
+  //   name: "Alyssa Chuzeville",
+  //   role: "Head of Product",
+  // },
+  // {
+  //   image: TeamImg05,
+  //   name: "Dominik Prasad",
+  //   role: "Senior Researcher",
+  // },
+  // {
+  //   image: TeamImg06,
+  //   name: "Darya Semenova",
+  //   role: "Software Engineer",
+  // },
+  // {
+  //   image: TeamImg07,
+  //   name: "Mary Pullgat",
+  //   role: "Software Engineer",
+  // },
+  // {
+  //   image: TeamImg08,
+  //   name: "Quentin Renvoye",
+  //   role: "Senior Marketing Manager",
+  // },
+  // {
+  //   image: TeamImg09,
+  //   name: "Justin Jackson",
+  //   role: "Content & SEO Lead",
+  // },
+  // {
+  //   image: TeamImg10,
+  //   name: "Alice Nguyen",
+  //   role: "Engineering Manager",
+  // },
+  // {
+  //   image: TeamImg11,
+  //   name: "Duyk Hermann",
+  //   role: "Product Designer",
+  // },
+  // {
+  //   image: TeamImg12,
+  //   name: "Kevon Cheung",
+  //   role: "Creative Director",
+  // },
 ];
 
 export default function Team() {

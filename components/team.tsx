@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import TeamImg01 from "@/public/images/team-00.jpg";
+import TeamImg01 from "@/public/images/profile2.jpg";
 import TeamImg02 from "@/public/images/guo.jpg";
 import LinkedInIcon from "@/public/images/linkedin.svg";
 import TelegramIcon from "@/public/images/telegram.svg";

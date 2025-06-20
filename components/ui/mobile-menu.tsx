@@ -107,15 +107,6 @@ export default function MobileMenu() {
             </li>
             <li>
               <Link
-                href="/agents"
-                className="flex rounded-lg px-2 py-1.5 text-white hover:text-indigo-500"
-                onClick={() => setMobileNavOpen(false)}
-              >
-                Agents
-              </Link>
-            </li>
-            <li>
-              <Link
                 href="https://docs.treza.xyz"
                 className="flex rounded-lg px-2 py-1.5 text-white hover:text-indigo-500"
                 onClick={() => setMobileNavOpen(false)}
@@ -148,15 +139,6 @@ export default function MobileMenu() {
                 onClick={() => setMobileNavOpen(false)}
               >
                 Examples
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="https://app.treza.xyz"
-                className="flex rounded-lg px-2 py-1.5 text-white hover:text-indigo-500"
-                onClick={() => setMobileNavOpen(false)}
-              >
-                Launch App
               </Link>
             </li>
           </ul>

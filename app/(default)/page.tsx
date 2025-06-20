@@ -1,6 +1,28 @@
 export const metadata = {
-  title: "Home - Open PRO",
-  description: "Page description",
+  title: "Treza - Secure Enclaves for Autonomous Agents",
+  description: "Trusted compute, automated execution, and secure key management for crypto-native agents and workflows. Deploy agents inside secure enclaves with isolated compute and scoped key access.",
+  openGraph: {
+    title: "Treza - Secure Enclaves for Autonomous Agents",
+    description: "Trusted compute, automated execution, and secure key management for crypto-native agents and workflows. Deploy agents inside secure enclaves with isolated compute and scoped key access.",
+    url: "https://treza.xyz",
+    siteName: "Treza",
+    images: [
+      {
+        url: "/images/treza-banner.png",
+        width: 1200,
+        height: 630,
+        alt: "Treza - Secure Enclaves for Autonomous Agents",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Treza - Secure Enclaves for Autonomous Agents",
+    description: "Trusted compute, automated execution, and secure key management for crypto-native agents and workflows. Deploy agents inside secure enclaves with isolated compute and scoped key access.",
+    images: ["/images/treza-banner.png"],
+  },
 };
 
 import PageIllustration from "@/components/page-illustration";

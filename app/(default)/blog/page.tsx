@@ -5,8 +5,8 @@ import BlogFilters from "./filters";
 import PostItem from "@/app/(default)/blog/post-item";
 
 export const metadata = {
-  title: "Blog - Open PRO",
-  description: "Page description",
+  title: "Blog - Treza",
+  description: "Latest insights on secure enclaves, autonomous agents, and trusted compute from the Treza team.",
 };
 
 import Cta from "@/components/cta";
@@ -32,12 +32,12 @@ export default function Blog() {
             {/* Section header */}
             <div className="pb-12 text-center">
               <h1 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-5 font-nacelle text-4xl font-semibold text-transparent md:text-5xl">
-                The Open PRO Blog
+                The Treza Blog
               </h1>
               <div className="mx-auto max-w-3xl">
                 <p className="text-xl text-indigo-200/65">
-                  Discover the latest news, tips and user research insights from
-                  Open PRO.
+                  Discover the latest insights on secure enclaves, autonomous agents, and trusted compute from
+                  Treza.
                 </p>
               </div>
             </div>

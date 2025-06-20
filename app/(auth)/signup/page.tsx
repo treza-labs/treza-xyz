@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Sign Up - Open PRO",
-  description: "Page description",
+  title: "Sign Up - Treza",
+  description: "Create your Treza account to start deploying autonomous agents in secure compute environments.",
 };
 
 import Link from "next/link";

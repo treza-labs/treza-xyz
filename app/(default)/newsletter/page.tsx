@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Features - Open PRO",
-  description: "Page description",
+  title: "Newsletter - Treza",
+  description: "Stay updated with the latest developments in secure enclaves and autonomous agent technology from Treza.",
 };
 
 import PageIllustration from "@/components/page-illustration";

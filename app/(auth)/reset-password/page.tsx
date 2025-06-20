@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Reset Password - Open PRO",
-  description: "Page description",
+  title: "Reset Password - Treza",
+  description: "Reset your Treza account password to regain access to your secure agent deployment platform.",
 };
 
 import Link from "next/link";

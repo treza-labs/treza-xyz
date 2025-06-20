@@ -12,11 +12,11 @@ export default function HelpSidebar() {
       href: "/help/frequently-asked-questions",
     },
     {
-      name: "What is Open PRO",
+      name: "What is Treza",
       href: "/help/what-is-open-pro",
     },
     {
-      name: "Open PRO plan’s features",
+      name: "Treza plan's features",
       href: "/help/open-pro-plans-features",
     },
     {
@@ -24,7 +24,7 @@ export default function HelpSidebar() {
       href: "/help/get-started",
     },
     {
-      name: "Payments FAQ’s",
+      name: "Payments FAQ's",
       href: "/help/payments-faqs",
     },
   ];

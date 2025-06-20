@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Contact us - Open PRO",
-  description: "Page description",
+  title: "Contact us - Treza",
+  description: "Get in touch with the Treza team. We're here to help you deploy secure autonomous agents in trusted compute environments.",
 };
 
 import PageIllustration from "@/components/page-illustration";

@@ -13,10 +13,10 @@ export default function Faqs() {
           <ul className="grid gap-8 md:grid-cols-2 lg:gap-y-12 xl:gap-x-16">
             <li>
               <h4 className="mb-2 font-nacelle text-lg font-semibold text-gray-200">
-                What payment options does Open PRO accept?
+                What payment options does Treza accept?
               </h4>
               <p className="text-[1rem] text-indigo-200/65">
-                Open PRO accepts all major credit cards, including Visa,
+                Treza accepts all major credit cards, including Visa,
                 MasterCard, American Express, and Discover, as well as PayPal
                 for added convenience.
               </p>

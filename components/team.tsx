@@ -19,7 +19,7 @@ const teamMembers = [
     image: TeamImg01,
     name: "Alex Daro",
     role: "Co Founder, Developer",
-    description: "Alex is a seasoned developer with a background in blockchain, media and entertainment.",
+    description: "Alex Daro, former engineer at Marvel Studios and AOL, now leads Treza, a platform bringing secure compute to the next frontier of autonomous agents.",
     link: "https://www.linkedin.com/in/alexdaro/",
   },
   {
@@ -29,6 +29,13 @@ const teamMembers = [
     description: "QueensPawn is a 8-year crypto veteran with a background in sales and product marketing.",
     link: "https://t.me/queenspawn10",
   },
+  {
+    image: null, // Use placeholder avatar
+    name: "Alejandro Cruz",
+    role: "Marketing Manager",
+    description: "Alejandro is a marketing manager with a background in marketing and sales.",
+    link: "",
+  },  
   {
     image: null, // Use placeholder avatar
     name: "Sarah Chen",
@@ -43,6 +50,10 @@ const teamMembers = [
     description: "Marcus builds and nurtures our community, ensuring every member feels heard and valued in the Treza ecosystem.",
     link: "",
   },
+  // add one for Alejandro @alexcruz1986 marketing 
+
+
+  // add new team members here
   // {
   //   image: TeamImg03,
   //   name: "Marie Koniuszek",

@@ -50,9 +50,6 @@ const teamMembers = [
     description: "Marcus builds and nurtures our community, ensuring every member feels heard and valued in the Treza ecosystem.",
     link: "",
   },
-  // add one for Alejandro @alexcruz1986 marketing 
-
-
   // add new team members here
   // {
   //   image: TeamImg03,

@@ -119,7 +119,7 @@ export default function Footer() {
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="https://treza.gitbook.io"
+                  href="https://docs.treza.xyz/developers/rest-api"
                 >
                   REST API
                 </a>
@@ -135,7 +135,7 @@ export default function Footer() {
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="https://github.com/treza-labs/treza-examples"
+                  href="https://docs.treza.xyz/developers/examples"
                 >
                   Examples
                 </a>

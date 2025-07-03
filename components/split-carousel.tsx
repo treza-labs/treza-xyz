@@ -88,9 +88,9 @@ export default function SplitCarousel() {
                     ))}
                   </TabList>
                 </div>
-                <div>
+                                <div>
                   <p className="mb-4 font-nacelle text-gray-200">
-                    "The infrastructure approach is what sold us. Finally, agents that can execute with the same security guarantees as traditional systems."
+                    "Treza eliminates the complexity of managing secure infrastructure and key custody. We can focus on building our agents instead of worrying about dev ops and security vulnerabilities."
                   </p>
                   <div className="flex items-center gap-3">
                     <Image
@@ -101,14 +101,9 @@ export default function SplitCarousel() {
                       alt="Small testimonial"
                     />
                     <div className="text-sm font-medium text-gray-200">
-                      <span>Sarah Chen</span>
+                      <span>David Kim</span>
                       <span className="text-gray-700"> - </span>
-                      <a
-                        className="text-indigo-200/65 transition-colors hover:text-indigo-500"
-                        href="#0"
-                      >
-                        Protocol Labs
-                      </a>
+                      <span className="text-indigo-200/65">Head of Engineering</span>
                     </div>
                   </div>
                 </div>

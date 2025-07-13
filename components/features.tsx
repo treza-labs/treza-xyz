@@ -36,14 +36,14 @@ export default function Features() {
           <div className="mx-auto max-w-3xl pb-4 text-center md:pb-12">
             <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-linear-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-linear-to-l after:from-transparent after:to-indigo-200/50">
               <span className="inline-flex bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                Infrastructure First
+                TEE-Agnostic Protocol
               </span>
             </div>
             <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-            Infrastructure built for autonomous agents
+            Verifiable, decentralized trusted execution
             </h2>
             <p className="text-lg text-indigo-200/65">
-            Before agents can scale, they need secure, reliable infrastructure to interact with crypto systems. Treza provides the foundational layer that makes autonomous execution possible.
+            Deploy and execute sensitive workloads within cryptographically-isolated enclaves. Treza abstracts TEE complexity across Intel SGX, AMD SEV, ARM TrustZone, and emerging hardware architectures.
             </p>
           </div>
           <div className="flex justify-center pb-4 md:pb-12" data-aos="fade-up">
@@ -71,10 +71,10 @@ export default function Features() {
                 />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-              Secure Enclaves
+              Cryptographic Attestation
               </h3>
               <p className="text-indigo-200/65">
-              Single-use compute environments with zero network exposure, cryptographic attestation for code integrity, and tamper-resistant logging for every execution.
+              Hardware-rooted proofs of execution integrity. Every computational job produces digitally signed attestations verifiable by any third party, ensuring code authenticity and environment isolation.
               </p>
             </article>
             <article>
@@ -88,30 +88,10 @@ export default function Features() {
                 <path d="M19 6H0v2h17v8H7v-6H5v8h19v-2h-5V6Z" />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Delegated Signing
+                Multi-TEE Architecture
               </h3>
               <p className="text-indigo-200/65">
-              Multi-key custody support with secure channel communication and encrypted payloads, keeping your execution safe while enabling agent autonomy.
-              </p>
-            </article>
-            <article>
-              <svg
-                className="mb-3 fill-indigo-500"
-                xmlns="http://www.w3.org/2000/svg"
-                width={24}
-                height={24}
-              >
-                <path d="M23.414 6 18 .586 16.586 2l3 3H7a6 6 0 0 0-6 6h2a4 4 0 0 1 4-4h12.586l-3 3L18 11.414 23.414 6Z" />
-                <path
-                  fillOpacity=".48"
-                  d="M13.01 12.508a2.5 2.5 0 0 0-3.502.482L1.797 23.16.203 21.952l7.71-10.17a4.5 4.5 0 1 1 7.172 5.437l-4.84 6.386-1.594-1.209 4.841-6.385a2.5 2.5 0 0 0-.482-3.503Z"
-                />
-              </svg>
-              <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-              Task Orchestration
-              </h3>
-              <p className="text-indigo-200/65">
-              Agent orchestration with task scheduling, retry logic, and event-based triggering from market or system signals, built for reliability at scale.
+              TEE-agnostic abstraction layer supporting Intel SGX, AMD SEV, ARM TrustZone, and RISC-V Keystone. Unified interface across heterogeneous hardware architectures for maximum compatibility.
               </p>
             </article>
             <article>
@@ -133,10 +113,10 @@ export default function Features() {
                 <path d="m16.321 2-.5-.866 1.733-1 .5.866A22 22 0 0 1 21 12c0 3.852-1.017 7.636-2.948 10.97l-.502.865-1.73-1.003.501-.865A19.878 19.878 0 0 0 19 12a20 20 0 0 0-2.679-10Z" />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-              Strategy Execution
+              Decentralized Marketplace
               </h3>
               <p className="text-indigo-200/65">
-              Assign battle-tested strategies to your agents. From memecoins to majors, your agents will execute with precision across any condition.
+              Global network where hardware providers contribute TEE-enabled compute resources and earn TREZA rewards. Developers access verifiable execution environments through economic incentives.
               </p>
             </article>
             <article>
@@ -153,10 +133,10 @@ export default function Features() {
                 <path d="m7.454 2.891.891-.454L7.437.655l-.891.454a12 12 0 0 0 0 21.382l.89.454.91-1.781-.892-.455a10 10 0 0 1 0-17.818ZM17.456 1.11l-.891-.454-.909 1.782.891.454a10 10 0 0 1 0 17.819l-.89.454.908 1.781.89-.454a12 12 0 0 0 0-21.382Z" />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-              Modular Workflows
+              Isolated Compute Enclaves
               </h3>
               <p className="text-indigo-200/65">
-                Build layered agent logic that adapts to your needs, automate tracking, execution, alerts, and more using powerful, reusable components.
+                Cryptographically-isolated execution environments with memory encryption and integrity protection. Zero network exposure during computation with tamper-resistant logging.
               </p>
             </article>
             <article>
@@ -173,10 +153,27 @@ export default function Features() {
                 <path d="M19.406 3.844 6.083 20.497.586 15 2 13.586l3.917 3.917L17.844 2.595l1.562 1.25Z" />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-              Secure Key Management
+              Developer SDK
               </h3>
               <p className="text-indigo-200/65">
-              Keep your execution safe with built-in support for encrypted key handling, trusted execution environments, and role-based agent permissions.
+              Low-friction abstraction layer that removes TEE programming complexity. Comprehensive APIs and toolkits enable developers to integrate verifiable security without domain expertise.
+              </p>
+            </article>
+            <article>
+              <svg
+                className="mb-3 fill-indigo-500"
+                xmlns="http://www.w3.org/2000/svg"
+                width={24}
+                height={24}
+              >
+                <path fillOpacity=".48" d="M7 8V0H5v8h2Zm12 16v-4h-2v4h2Z" />
+                <path d="M19 6H0v2h17v8H7v-6H5v8h19v-2h-5V6Z" />
+              </svg>
+              <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
+                Cryptoeconomic Security
+              </h3>
+              <p className="text-indigo-200/65">
+              TREZA token alignment through staking requirements, slashing penalties, and reward multipliers. Economic incentives ensure honest behavior and high-quality resource contributions.
               </p>
             </article>
           </div>

@@ -13,14 +13,14 @@ export default function Workflows() {
           <div className="mx-auto max-w-3xl pb-12 text-center md:pb-20">
             <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-linear-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-linear-to-l after:from-transparent after:to-indigo-200/50">
               <span className="inline-flex bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                Agent Execution Framework
+                Trusted Execution Environments
               </span>
             </div>
             <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-              Secure, reliable agent execution
+              Cryptographically-isolated computation
             </h2>
             <p className="text-lg text-indigo-200/65">
-            Deploy and operate crypto agents inside secure enclaves with isolated compute, scoped key access, and real-time orchestration, without managing private keys or backend complexity.
+            Deploy sensitive workloads to verifiable enclaves with mathematical proof of execution integrity. From financial algorithms to AI models, run any computation with hardware-rooted security guarantees.
             </p>
           </div>
           {/* Spotlight items */}
@@ -61,12 +61,12 @@ export default function Workflows() {
                   <div className="mb-3">
                     <span className="btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_bottom,--theme(--color-gray-700/.15),--theme(--color-gray-700/.5))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-gray-800/60">
                       <span className="bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                        Agent Orchestration
+                        Secure Job Orchestration
                       </span>
                     </span>
                   </div>
                   <p className="text-indigo-200/65">
-                  Agent orchestration with task scheduling and retry logic, plus delegated wallet signing with support for multi-key custody.
+                  Distributed job scheduling with secure task queuing and execution management, plus hardware-secured key management with multi-signature support for sensitive operations.
                   </p>
                 </div>
               </div>
@@ -107,12 +107,12 @@ export default function Workflows() {
                   <div className="mb-3">
                     <span className="btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_bottom,--theme(--color-gray-700/.15),--theme(--color-gray-700/.5))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-gray-800/60">
                       <span className="bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                      Event-Based Triggering
+                      Reactive Execution
                       </span>
                     </span>
                   </div>
                   <p className="text-indigo-200/65">
-                  Event-based task triggering from market or system signals with developer SDK for seamless integration into agent workflows.
+                  Event-driven computation triggered by market signals, system events, or external data feeds with developer SDK for seamless integration into any sensitive workflow.
                   </p>
                 </div>
               </div>
@@ -153,12 +153,12 @@ export default function Workflows() {
                   <div className="mb-3">
                     <span className="btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_bottom,--theme(--color-gray-700/.15),--theme(--color-gray-700/.5))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-gray-800/60">
                       <span className="bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                        Secure Compute
+                        Cryptographically-Isolated Execution
                       </span>
                     </span>
                   </div>
                   <p className="text-indigo-200/65">
-                  Trusted enclave-based containers for sensitive agent tasks, ensuring all logic runs in sealed, tamper-proof environments with cryptographic guarantees.
+                  Hardware-secured enclaves for sensitive computation workloads, ensuring all processing runs in cryptographically-isolated environments with verifiable attestation proofs.
                   </p>
                 </div>
               </div>

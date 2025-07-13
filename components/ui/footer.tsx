@@ -127,7 +127,7 @@ export default function Footer() {
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="https://github.com/treza-labs/treza-sdk"
+                  href="https://docs.treza.xyz/developers/treza-sdk"
                 >
                   Treza SDK
                 </a>

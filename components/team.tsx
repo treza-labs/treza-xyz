@@ -29,13 +29,13 @@ const teamMembers = [
     description: "QueensPawn is a 8-year crypto veteran with a background in sales and product marketing.",
     link: "https://t.me/queenspawn10",
   },
-  {
-    image: null, // Use placeholder avatar
-    name: "Alejandro Cruz",
-    role: "Marketing Manager",
-    description: "Alejandro is a marketing manager with a background in marketing and sales.",
-    link: "",
-  },  
+  // {
+  //   image: null, // Use placeholder avatar
+  //   name: "Alejandro Cruz",
+  //   role: "Marketing Manager",
+  //   description: "Alejandro is a marketing manager with a background in marketing and sales.",
+  //   link: "",
+  // },  
   {
     image: null, // Use placeholder avatar
     name: "Sarah Chen",
@@ -43,13 +43,13 @@ const teamMembers = [
     description: "Sarah specializes in modern web technologies and smart contract development, bringing innovative solutions to complex problems.",
     link: "",
   },
-  {
-    image: null, // Use placeholder avatar
-    name: "Marcus Thompson",
-    role: "Community Manager",
-    description: "Marcus builds and nurtures our community, ensuring every member feels heard and valued in the Treza ecosystem.",
-    link: "",
-  },
+  // {
+  //   image: null, // Use placeholder avatar
+  //   name: "Marcus Thompson",
+  //   role: "Community Manager",
+  //   description: "Marcus builds and nurtures our community, ensuring every member feels heard and valued in the Treza ecosystem.",
+  //   link: "",
+  // },
   // add new team members here
   // {
   //   image: TeamImg03,

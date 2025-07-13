@@ -11,23 +11,23 @@ import SmallTestimonialImg from "@/public/images/small-testimonial.jpg";
 
 const tabs = [
   {
-    title: "Verifiable Execution",
+    title: "Cryptographic Attestation",
     description:
-      "Cryptographic attestation for code integrity and environment validation, ensuring all agent logic runs in sealed, tamper-proof environments.",
+      "Hardware-rooted proofs of execution integrity with digitally signed attestations. Every computational job provides mathematically verifiable evidence of code authenticity and environment isolation.",
     img: CarouselImg01,
     imgAlt: "Carousel image 01",
   },
   {
-    title: "Scalable Orchestration",
+    title: "Provider Network",
     description:
-      "Agent orchestration with task scheduling, retry logic, and event-based triggering, built to handle everything from single agents to distributed fleets.",
+      "Distributed fleet of compute providers running TEE-enabled hardware. Autonomous agents discover capabilities, bid on jobs, execute in isolated enclaves, and submit verifiable results.",
     img: CarouselImg02,
     imgAlt: "Carousel image 02",
   },
   {
-    title: "Decentralized Network",
+    title: "TEE Abstraction Layer",
     description:
-      "Distributed enclave provisioning across global node operators with token-governed resource allocation, the foundation for autonomous agent economies.",
+      "Unified interface across Intel SGX, AMD SEV, ARM TrustZone, and RISC-V architectures. Hardware-agnostic deployment with consistent security guarantees across heterogeneous infrastructure.",
     img: CarouselImg03,
     imgAlt: "Carousel image 03",
   },
@@ -46,16 +46,16 @@ export default function SplitCarousel() {
               <div className="shrink-0 md:w-[500px] *:pl-7">
                 <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-linear-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-linear-to-l after:from-transparent after:to-indigo-200/50">
                   <span className="inline-flex bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                  Secure Infrastructure
+                  Decentralized Protocol
                   </span>
                 </div>
                 <div className="relative mb-6 border-l [border-image:linear-gradient(to_bottom,transparent,--theme(--color-slate-400/.25),transparent)1] after:absolute after:left-0 after:top-0 after:h-4 after:w-px after:origin-bottom after:-translate-y-full after:animate-shine after:bg-[linear-gradient(180deg,transparent,--theme(--color-indigo-500/.5)_25%,--theme(--color-indigo-500)_50%,--theme(--color-indigo-500/.5)_75%,transparent)] after:opacity-0">
                   <div className="mb-4">
                     <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-                    Hardware-secured agent execution
+                    Trust-minimized compute marketplace
                     </h2>
                     <p className="text-indigo-200/65">
-                    Treza's infrastructure enables agents to hold keys, execute financial logic, and coordinate across networks with cryptographic guarantees and hardware-level security.
+                    Treza creates a global marketplace for verifiable computation where hardware providers monetize TEE capabilities and developers access cryptographically-isolated execution environments.
                     </p>
                   </div>
 

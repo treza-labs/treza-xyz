@@ -1,9 +1,9 @@
 export const metadata = {
-  title: "Treza Network - Verifiable, Decentralized Trusted Execution",
-  description: "A decentralized protocol for deploying and executing arbitrary computation within cryptographically-isolated and verifiable enclaves. TEE-agnostic infrastructure with cryptographic attestation for secure, private workloads.",
+  title: "Treza Network - Secure Enclaves for Sensitive Computation",
+  description: "Deploy sensitive workloads in hardware-secured enclaves with cryptographic verification. TEE-agnostic protocol supporting Intel SGX, AMD SEV, and ARM TrustZone.",
   openGraph: {
-    title: "Treza Network - Verifiable, Decentralized Trusted Execution",
-    description: "A decentralized protocol for deploying and executing arbitrary computation within cryptographically-isolated and verifiable enclaves. TEE-agnostic infrastructure with cryptographic attestation for secure, private workloads.",
+    title: "Treza Network - Secure Enclaves for Sensitive Computation",
+    description: "Deploy sensitive workloads in hardware-secured enclaves with cryptographic verification. TEE-agnostic protocol supporting Intel SGX, AMD SEV, and ARM TrustZone.",
     url: "https://treza.xyz",
     siteName: "Treza Network",
     images: [
@@ -11,7 +11,7 @@ export const metadata = {
         url: "/images/treza-banner.png",
         width: 1200,
         height: 630,
-        alt: "Treza Network - Verifiable, Decentralized Trusted Execution",
+        alt: "Treza Network - Secure Enclaves for Sensitive Computation",
       },
     ],
     locale: "en_US",
@@ -19,8 +19,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Treza Network - Verifiable, Decentralized Trusted Execution",
-    description: "A decentralized protocol for deploying and executing arbitrary computation within cryptographically-isolated and verifiable enclaves. TEE-agnostic infrastructure with cryptographic attestation for secure, private workloads.",
+    title: "Treza Network - Secure Enclaves for Sensitive Computation",
+    description: "Deploy sensitive workloads in hardware-secured enclaves with cryptographic verification. TEE-agnostic protocol supporting Intel SGX, AMD SEV, and ARM TrustZone.",
     images: ["/images/treza-banner.png"],
   },
 };

@@ -23,7 +23,7 @@ export default function Clients() {
               Ecosystem compatibility
             </h2>
             <p className="text-lg text-indigo-200/65">
-              Treza's TEE-agnostic protocol integrates across hardware architectures and development environments, supporting diverse workloads from AI inference to financial computation.
+              TEE-agnostic protocol integrating across hardware architectures and development environments. Supporting diverse workloads from AI inference to financial computation.
             </p>
           </div>
           {/* Items */}

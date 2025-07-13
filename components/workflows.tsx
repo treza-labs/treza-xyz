@@ -17,10 +17,10 @@ export default function Workflows() {
               </span>
             </div>
             <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-              Cryptographically-isolated computation
+              Hardware-secured computation
             </h2>
             <p className="text-lg text-indigo-200/65">
-            Deploy sensitive workloads to verifiable enclaves with mathematical proof of execution integrity. From financial algorithms to AI models, run any computation with hardware-rooted security guarantees.
+            Run sensitive workloads in verifiable enclaves with mathematical proof of execution integrity. From financial algorithms to AI models.
             </p>
           </div>
           {/* Spotlight items */}
@@ -66,7 +66,7 @@ export default function Workflows() {
                     </span>
                   </div>
                   <p className="text-indigo-200/65">
-                  Distributed job scheduling with secure task queuing and execution management, plus hardware-secured key management with multi-signature support for sensitive operations.
+                  Secure job scheduling with task queuing and execution management. Hardware-secured key management with multi-signature support.
                   </p>
                 </div>
               </div>
@@ -107,12 +107,12 @@ export default function Workflows() {
                   <div className="mb-3">
                     <span className="btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_bottom,--theme(--color-gray-700/.15),--theme(--color-gray-700/.5))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-gray-800/60">
                       <span className="bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                      Reactive Execution
+                       Reactive Execution
                       </span>
                     </span>
                   </div>
                   <p className="text-indigo-200/65">
-                  Event-driven computation triggered by market signals, system events, or external data feeds with developer SDK for seamless integration into any sensitive workflow.
+                  Event-driven computation triggered by market signals or system events. Developer SDK for seamless integration.
                   </p>
                 </div>
               </div>
@@ -153,12 +153,12 @@ export default function Workflows() {
                   <div className="mb-3">
                     <span className="btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_bottom,--theme(--color-gray-700/.15),--theme(--color-gray-700/.5))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-gray-800/60">
                       <span className="bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                        Cryptographically-Isolated Execution
+                         Cryptographically-Isolated Execution
                       </span>
                     </span>
                   </div>
                   <p className="text-indigo-200/65">
-                  Hardware-secured enclaves for sensitive computation workloads, ensuring all processing runs in cryptographically-isolated environments with verifiable attestation proofs.
+                  Hardware-secured enclaves for sensitive workloads. Cryptographically-isolated environments with verifiable attestation.
                   </p>
                 </div>
               </div>

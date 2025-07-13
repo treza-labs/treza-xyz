@@ -42,7 +42,7 @@ export default function HeroHome() {
                 data-aos="fade-up"
                 data-aos-delay={200}
               >
-                Deploy sensitive workloads within cryptographically-isolated enclaves. TEE-agnostic protocol with cryptographic attestation for financial algorithms, AI models, and any computation requiring hardware-rooted security.
+                Deploy sensitive workloads in hardware-secured enclaves with cryptographic verification. Support for financial algorithms, AI models, and any computation requiring secure execution.
               </p>
               <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
                 <div data-aos="fade-up" data-aos-delay={400}>

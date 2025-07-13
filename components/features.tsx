@@ -40,10 +40,10 @@ export default function Features() {
               </span>
             </div>
             <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-            Verifiable, decentralized trusted execution
+            Secure enclaves for any workload
             </h2>
             <p className="text-lg text-indigo-200/65">
-            Deploy and execute sensitive workloads within cryptographically-isolated enclaves. Treza abstracts TEE complexity across Intel SGX, AMD SEV, ARM TrustZone, and emerging hardware architectures.
+            Deploy sensitive computation with hardware-level security. TEE-agnostic protocol supporting Intel SGX, AMD SEV, and ARM TrustZone.
             </p>
           </div>
           <div className="flex justify-center pb-4 md:pb-12" data-aos="fade-up">
@@ -74,7 +74,7 @@ export default function Features() {
               Cryptographic Attestation
               </h3>
               <p className="text-indigo-200/65">
-              Hardware-rooted proofs of execution integrity. Every computational job produces digitally signed attestations verifiable by any third party, ensuring code authenticity and environment isolation.
+              Hardware-rooted proofs of execution integrity. Every job produces digitally signed attestations verifiable by any third party.
               </p>
             </article>
             <article>
@@ -91,7 +91,7 @@ export default function Features() {
                 Multi-TEE Architecture
               </h3>
               <p className="text-indigo-200/65">
-              TEE-agnostic abstraction layer supporting Intel SGX, AMD SEV, ARM TrustZone, and RISC-V Keystone. Unified interface across heterogeneous hardware architectures for maximum compatibility.
+              Unified interface across Intel SGX, AMD SEV, ARM TrustZone, and RISC-V Keystone. One API for all hardware architectures.
               </p>
             </article>
             <article>
@@ -116,7 +116,7 @@ export default function Features() {
               Decentralized Marketplace
               </h3>
               <p className="text-indigo-200/65">
-              Global network where hardware providers contribute TEE-enabled compute resources and earn TREZA rewards. Developers access verifiable execution environments through economic incentives.
+              Global network where hardware providers contribute TEE resources and earn TREZA rewards. Developers access secure execution environments.
               </p>
             </article>
             <article>
@@ -136,7 +136,7 @@ export default function Features() {
               Isolated Compute Enclaves
               </h3>
               <p className="text-indigo-200/65">
-                Cryptographically-isolated execution environments with memory encryption and integrity protection. Zero network exposure during computation with tamper-resistant logging.
+                Cryptographically-isolated execution with memory encryption and integrity protection. Zero network exposure with tamper-resistant logging.
               </p>
             </article>
             <article>
@@ -156,7 +156,7 @@ export default function Features() {
               Developer SDK
               </h3>
               <p className="text-indigo-200/65">
-              Low-friction abstraction layer that removes TEE programming complexity. Comprehensive APIs and toolkits enable developers to integrate verifiable security without domain expertise.
+              Simple abstraction layer removing TEE complexity. Comprehensive APIs enabling secure integration without domain expertise.
               </p>
             </article>
             <article>
@@ -173,7 +173,7 @@ export default function Features() {
                 Cryptoeconomic Security
               </h3>
               <p className="text-indigo-200/65">
-              TREZA token alignment through staking requirements, slashing penalties, and reward multipliers. Economic incentives ensure honest behavior and high-quality resource contributions.
+              TREZA token alignment through staking, slashing, and reward multipliers. Economic incentives ensuring honest behavior and quality contributions.
               </p>
             </article>
           </div>

@@ -27,6 +27,7 @@ export const metadata = {
 
 import PageIllustration from "@/components/page-illustration";
 import Hero from "@/components/hero-home";
+import IntroVideo from "@/components/intro-video";
 import Workflows from "@/components/workflows";
 import Features from "@/components/features";
 // import Pricing from "@/components/pricing-home";
@@ -39,6 +40,7 @@ export default function Home() {
     <>
       <PageIllustration />
       <Hero />
+      <IntroVideo />
       <Workflows />
       <Features />
       <Clients />

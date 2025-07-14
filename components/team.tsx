@@ -29,13 +29,13 @@ const teamMembers = [
     description: "QueensPawn is a 8-year crypto veteran with a background in sales and product marketing.",
     link: "https://t.me/queenspawn10",
   },
-  // {
-  //   image: null, // Use placeholder avatar
-  //   name: "Alejandro Cruz",
-  //   role: "Marketing Manager",
-  //   description: "Alejandro is a marketing manager with a background in marketing and sales.",
-  //   link: "",
-  // },  
+  {
+    image: null, // Use placeholder avatar
+    name: "HS",
+    role: "AI Engineer",
+    description: "HS is a senior engineer focused on privacy-preserving AI systems that execute sensitive tasks with cryptographic guarantees.",
+    link: "https://t.me/itsLukasx",
+  },  
   {
     image: null, // Use placeholder avatar
     name: "Sarah Chen",

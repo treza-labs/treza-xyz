@@ -31,9 +31,9 @@ const teamMembers = [
   },
   {
     image: null, // Use placeholder avatar
-    name: "HS",
+    name: "Lukas",
     role: "AI Engineer",
-    description: "HS is a senior engineer focused on privacy-preserving AI systems that execute sensitive tasks with cryptographic guarantees.",
+    description: "Lukas is a senior engineer focused on privacy-preserving AI systems that execute sensitive tasks with cryptographic guarantees.",
     link: "https://t.me/itsLukasx",
   },  
   {

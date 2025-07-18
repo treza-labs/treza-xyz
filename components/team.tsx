@@ -133,49 +133,53 @@ export default function Team() {
             </h2>
           </div>
           {/* Members */}
-          <div className="flex flex-wrap justify-center gap-8 md:gap-16">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-16 justify-items-center max-w-5xl mx-auto">
             {teamMembers.map((member, index) => {
               const socialIcon = member.link ? getSocialIcon(member.link) : null;
               
               return (
-                <div key={index} className="w-60 text-center md:w-72">
-                  <div className="relative mb-4 inline-flex w-20 h-20 before:absolute before:inset-0 before:rounded-full before:bg-linear-to-b before:from-indigo-500 before:to-gray-950 before:opacity-15">
-                    {member.image ? (
-                      <Image
-                        className="rounded-full object-cover w-full h-full object-[center_30%] filter grayscale"
-                        src={member.image}
-                        width={80}
-                        height={80}
-                        alt={`Team member ${member.name}`}
-                      />
-                    ) : (
-                      <PlaceholderAvatar size={80} className="w-full h-full" />
-                    )}
+                <div key={index} className="w-60 md:w-72 flex flex-col h-full">
+                  <div className="text-center flex flex-col h-full">
+                    <div className="relative mb-4 inline-flex w-20 h-20 mx-auto before:absolute before:inset-0 before:rounded-full before:bg-linear-to-b before:from-indigo-500 before:to-gray-950 before:opacity-15">
+                      {member.image ? (
+                        <Image
+                          className="rounded-full object-cover w-full h-full object-[center_30%] filter grayscale"
+                          src={member.image}
+                          width={80}
+                          height={80}
+                          alt={`Team member ${member.name}`}
+                        />
+                      ) : (
+                        <PlaceholderAvatar size={80} className="w-full h-full" />
+                      )}
+                    </div>
+                    <div className="mb-1 font-nacelle text-lg text-gray-200">
+                      {member.name}
+                    </div>
+                    <p className="mb-3 text-sm text-indigo-200/65">{member.role}</p>
+                    <p className="mb-4 text-sm text-gray-400 leading-relaxed flex-grow">
+                      {member.description}
+                    </p>
+                    <div className="mt-auto">
+                      {socialIcon && member.link && (
+                        <a
+                          href={member.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-gray-800 hover:bg-gray-700 transition-colors duration-200"
+                          aria-label={`${member.name}'s social media profile`}
+                        >
+                          <Image
+                            src={socialIcon}
+                            width={16}
+                            height={16}
+                            alt="Social media icon"
+                            className="opacity-75 hover:opacity-100 transition-opacity duration-200"
+                          />
+                        </a>
+                      )}
+                    </div>
                   </div>
-                  <div className="mb-1 font-nacelle text-lg text-gray-200">
-                    {member.name}
-                  </div>
-                  <p className="mb-3 text-sm text-indigo-200/65">{member.role}</p>
-                  <p className="mb-4 text-sm text-gray-400 leading-relaxed">
-                    {member.description}
-                  </p>
-                  {socialIcon && member.link && (
-                    <a
-                      href={member.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-gray-800 hover:bg-gray-700 transition-colors duration-200"
-                      aria-label={`${member.name}'s social media profile`}
-                    >
-                      <Image
-                        src={socialIcon}
-                        width={16}
-                        height={16}
-                        alt="Social media icon"
-                        className="opacity-75 hover:opacity-100 transition-opacity duration-200"
-                      />
-                    </a>
-                  )}
                 </div>
               );
             })}

@@ -2,6 +2,7 @@ import Image from "next/image";
 
 import TeamImg01 from "@/public/images/profile2.jpg";
 import TeamImg02 from "@/public/images/guo.jpg";
+import JeffImg from "@/public/images/jeff.jpeg";
 import LinkedInIcon from "@/public/images/linkedin.svg";
 import TelegramIcon from "@/public/images/telegram.svg";
 import PlaceholderAvatar from "./placeholder-avatar";
@@ -28,6 +29,13 @@ const teamMembers = [
     role: "Co Founder, Head of Sales",
     description: "QueensPawn is a 8-year crypto veteran with a background in sales and product marketing.",
     link: "https://t.me/queenspawn10",
+  },
+  {
+    image: JeffImg,
+    name: "Jeff Cranford",
+    role: "Senior Engineer",
+    description: "Jeff is a senior engineer with extensive experience at Google and Goldman Sachs, bringing deep expertise in large-scale systems and financial technology.",
+    link: "https://www.linkedin.com/in/jeffcrans/",
   },
   {
     image: null, // Use placeholder avatar

@@ -53,7 +53,7 @@ export default function Header() {
               </li> */}
               <li>
                 <Link
-                  href="https://docs.treza.xyz"
+                                          href="https://docs.trezalabs.com"
                   className="flex items-center px-2 py-1 text-gray-200 transition hover:text-indigo-500 lg:px-3"
                 >
                   Documentation
@@ -64,7 +64,7 @@ export default function Header() {
                 {/* 2nd level: hover */}
                 <li>
                   <Link
-                    href="https://docs.treza.xyz/developers/rest-api"
+                                                href="https://docs.trezalabs.com/developers/rest-api"
                     className="flex rounded-lg px-2 py-1.5 text-sm text-white hover:text-indigo-500"
                   >
                     REST API
@@ -72,7 +72,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="https://docs.treza.xyz/developers/treza-sdk"
+                                                href="https://docs.trezalabs.com/developers/treza-sdk"
                     className="flex rounded-lg px-2 py-1.5 text-sm text-white hover:text-indigo-500"
                   >
                     Treza SDK
@@ -80,7 +80,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="https://docs.treza.xyz/developers/examples"
+                                                href="https://docs.trezalabs.com/developers/examples"
                     className="flex rounded-lg px-2 py-1.5 text-sm text-white hover:text-indigo-500"
                   >
                     Examples
@@ -102,7 +102,7 @@ export default function Header() {
             </li> */}
             <li>
               <Link
-                href="https://app.treza.xyz"
+                                  href="https://app.trezalabs.com"
                 className="btn-sm bg-linear-to-t from-indigo-600 to-indigo-500 bg-[length:100%_100%] bg-[bottom] py-[5px] text-white shadow-[inset_0px_1px_0px_0px_--theme(--color-white/.16)] hover:bg-[length:100%_150%]"
               >
                 Launch App

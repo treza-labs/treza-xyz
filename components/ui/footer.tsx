@@ -119,7 +119,7 @@ export default function Footer() {
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="https://docs.treza.xyz/developers/rest-api"
+                  href="https://docs.trezalabs.com/developers/rest-api"
                 >
                   REST API
                 </a>
@@ -127,7 +127,7 @@ export default function Footer() {
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="https://docs.treza.xyz/developers/treza-sdk"
+                  href="https://docs.trezalabs.com/developers/treza-sdk"
                 >
                   Treza SDK
                 </a>
@@ -135,7 +135,7 @@ export default function Footer() {
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="https://docs.treza.xyz/developers/examples"
+                  href="https://docs.trezalabs.com/developers/examples"
                 >
                   Examples
                 </a>
@@ -151,7 +151,7 @@ export default function Footer() {
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="https://docs.treza.xyz/use-cases/autonomous-execution"
+                  href="https://docs.trezalabs.com/use-cases/autonomous-execution"
                 >
                   AI Agents
                 </a>
@@ -159,7 +159,7 @@ export default function Footer() {
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="https://docs.treza.xyz/use-cases/secure-key-use"
+                  href="https://docs.trezalabs.com/use-cases/secure-key-use"
                 >
                   Secure Key Use
                 </a>
@@ -167,7 +167,7 @@ export default function Footer() {
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="https://docs.treza.xyz/use-cases/reactive-execution"
+                  href="https://docs.trezalabs.com/use-cases/reactive-execution"
                 >
                   Reactive Execution
                 </a>
@@ -209,7 +209,7 @@ export default function Footer() {
                 <span className="text-gray-700"> · </span>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="https://docs.treza.xyz/terms-and-privacy/terms-of-service"
+                  href="https://docs.trezalabs.com/terms-and-privacy/terms-of-service"
                 >
                   Terms
                 </a>

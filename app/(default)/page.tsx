@@ -4,7 +4,7 @@ export const metadata = {
   openGraph: {
     title: "Treza Network - Deploy and monetize secure enclaves",
     description: "Deploy sensitive workloads in hardware-secured enclaves with cryptographic verification. TEE-agnostic protocol supporting Intel SGX, AMD SEV, and ARM TrustZone.",
-    url: "https://treza.xyz",
+    url: "https://trezalabs.com",
     siteName: "Treza Network",
     images: [
       {

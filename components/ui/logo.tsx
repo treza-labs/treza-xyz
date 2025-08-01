@@ -5,7 +5,7 @@ import logo from "@/public/images/logo.svg";
 export default function Logo() {
   return (
     <Link href="/" className="inline-flex shrink-0 items-center gap-3" aria-label="Treza">
-      <Image src={logo} alt="Treza Labs" width={24} height={24} />
+      <Image src={logo} alt="Treza Labs" width={20} height={20} />
       <span className="text-lg font-semibold text-white tracking-widest">
         T R E Z A
       </span>

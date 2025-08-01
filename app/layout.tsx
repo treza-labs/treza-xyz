@@ -43,18 +43,14 @@ export const metadata = {
   description: "Deploy AI-powered agents that monitor markets, analyze data, and execute strategies on-chain. Built for crypto-native teams and automated trading flows.",
   icons: {
     icon: [
-      { url: '/images/logomark.png', sizes: '32x32', type: 'image/png' },
       { url: '/images/logomark.png', sizes: '16x16', type: 'image/png' },
+      { url: '/images/logomark.png', sizes: '32x32', type: 'image/png' },
+      { url: '/images/logomark.png', sizes: '48x48', type: 'image/png' },
     ],
     apple: [
       { url: '/images/logomark.png', sizes: '180x180', type: 'image/png' },
     ],
-    other: [
-      {
-        rel: 'mask-icon',
-        url: '/images/logomark.png',
-      },
-    ],
+    shortcut: '/images/logomark.png',
   },
   manifest: '/manifest.json',
   themeColor: '#000000',

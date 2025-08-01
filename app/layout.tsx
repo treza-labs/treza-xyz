@@ -43,16 +43,16 @@ export const metadata = {
   description: "Deploy AI-powered agents that monitor markets, analyze data, and execute strategies on-chain. Built for crypto-native teams and automated trading flows.",
   icons: {
     icon: [
-      { url: '/images/treza-logo-header.png', sizes: '32x32', type: 'image/png' },
-      { url: '/images/treza-logo-header.png', sizes: '16x16', type: 'image/png' },
+      { url: '/images/logomark.png', sizes: '32x32', type: 'image/png' },
+      { url: '/images/logomark.png', sizes: '16x16', type: 'image/png' },
     ],
     apple: [
-      { url: '/images/treza-logo-header.png', sizes: '180x180', type: 'image/png' },
+      { url: '/images/logomark.png', sizes: '180x180', type: 'image/png' },
     ],
     other: [
       {
         rel: 'mask-icon',
-        url: '/images/treza-logo-header.png',
+        url: '/images/logomark.png',
       },
     ],
   },

@@ -97,9 +97,11 @@ export default function Footer() {
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="/team"
+                  href="https://drive.google.com/drive/u/6/folders/1JjjUox1DQD9Azl14CG59MesUjtKfa_Hl"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  Advisors
+                  Brand
                 </a>
               </li>
               <li>

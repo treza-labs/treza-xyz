@@ -1,6 +1,6 @@
 export const metadata = {
     title: "Roadmap - Treza Network",
-    description: "Deploy and monetize secure enclaves - Treza's protocol development roadmap for decentralized TEE infrastructure",
+    description: "Secure enclaves for any workload - Treza's protocol development roadmap for decentralized TEE infrastructure",
   };
   
   import PageIllustration from "@/components/page-illustration";
@@ -20,10 +20,10 @@ export const metadata = {
                   </span>
                 </div>
                 <h1 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-                Deploy and monetize secure enclaves
+                Secure enclaves for any workload
                 </h1>
                 <p className="text-lg text-indigo-200/65 mb-8">
-                  Treza is building a decentralized network of secure enclaves using TEE-based compute infrastructure. This roadmap outlines our path from initial execution frameworks to a fully decentralized marketplace for secure computation—supporting any sensitive workload that requires hardware-level protection.
+                  Treza is building enterprise-grade secure compute infrastructure using TEE-based trusted execution environments. This roadmap outlines our path from core execution frameworks to smart contract integration and enterprise adoption—enabling businesses to run sensitive workloads with cryptographic security guarantees.
                 </p>
               </div>
 
@@ -147,36 +147,36 @@ export const metadata = {
                         className="absolute left-0 ml-20 box-content h-3 w-3 -translate-x-1/2 transform rounded-full border-4 border-gray-950 bg-indigo-500"
                         aria-hidden="true"
                       />
-                      <h3 className="text-xl font-nacelle font-semibold text-gray-200">Cryptoeconomic Marketplace</h3>
+                      <h3 className="text-xl font-nacelle font-semibold text-gray-200">On-Chain Verification & Smart Contracts</h3>
                     </div>
                   </div>
                   <div className="pl-2">
                     <div className="mb-4">
                       <h4 className="text-lg font-semibold text-indigo-300 mb-2">Objective</h4>
-                      <p className="text-gray-300 mb-4">Launch a cryptoeconomic marketplace where hardware providers monetize underutilized TEE capabilities while developers access secure compute resources through TREZA token-based allocation.</p>
+                      <p className="text-gray-300 mb-4">Build smart contracts that verify and utilize attestation documents from secure enclaves. Enable trustless verification of off-chain computation results through programmable on-chain validation.</p>
                     </div>
                     <div className="mb-4">
                       <h4 className="text-lg font-semibold text-indigo-300 mb-2">Why It Matters</h4>
-                      <p className="text-gray-300 mb-4">A sustainable decentralized compute network requires economic incentives that align hardware providers, developers, and the protocol. Tokens create programmable resource allocation.</p>
+                      <p className="text-gray-300 mb-4">Bridging off-chain secure execution with on-chain verification creates trustless computation workflows. Smart contracts can programmatically validate execution integrity without requiring trust in centralized attestation authorities.</p>
                     </div>
                     <div>
                       <h4 className="text-lg font-semibold text-indigo-300 mb-2">What We're Building</h4>
                       <ul className="space-y-2 text-gray-300">
                         <li className="flex items-start">
                           <span className="text-indigo-400 mr-2">•</span>
-                          TREZA token-based resource allocation and staking mechanisms
+                          Smart contract libraries for verifying TEE attestation documents and execution proofs
                         </li>
                         <li className="flex items-start">
                           <span className="text-indigo-400 mr-2">•</span>
-                          Hardware provider rewards for contributing TEE capacity to the network
+                          On-chain validation of off-chain computation results with cryptographic verification
                         </li>
                         <li className="flex items-start">
                           <span className="text-indigo-400 mr-2">•</span>
-                          Dynamic pricing and priority queues based on compute demand
+                          Programmable verification logic supporting multiple TEE architectures and attestation formats
                         </li>
                         <li className="flex items-start">
                           <span className="text-indigo-400 mr-2">•</span>
-                          Protocol governance for security parameters and network economics
+                          Integration APIs enabling DeFi and Web3 applications to consume verified computation results
                         </li>
                       </ul>
                     </div>
@@ -194,36 +194,36 @@ export const metadata = {
                         className="absolute left-0 ml-20 box-content h-3 w-3 -translate-x-1/2 transform rounded-full border-4 border-gray-950 bg-indigo-500"
                         aria-hidden="true"
                       />
-                      <h3 className="text-xl font-nacelle font-semibold text-gray-200">Permissionless Global Network</h3>
+                      <h3 className="text-xl font-nacelle font-semibold text-gray-200">Enterprise Platform & Go-to-Market</h3>
                     </div>
                   </div>
                   <div className="pl-2">
                     <div className="mb-4">
                       <h4 className="text-lg font-semibold text-indigo-300 mb-2">Objective</h4>
-                      <p className="text-gray-300 mb-4">Deploy a permissionless, globally scalable infrastructure supporting heterogeneous TEE technologies — enabling any developer to access verifiable compute without barriers.</p>
+                      <p className="text-gray-300 mb-4">Launch enterprise-ready platform with comprehensive compliance features, dedicated support, and strategic partnerships — enabling Fortune 500 companies to adopt secure compute at scale.</p>
                     </div>
                     <div className="mb-4">
                       <h4 className="text-lg font-semibold text-indigo-300 mb-2">Why It Matters</h4>
-                      <p className="text-gray-300 mb-4">This is the endgame: a fully decentralized, hardware-secure compute economy that eliminates centralized points of failure and provides cryptographic guarantees for any sensitive workload.</p>
+                      <p className="text-gray-300 mb-4">Enterprise adoption drives sustainable growth and validates our technology at scale. Strategic partnerships and compliance frameworks unlock new markets and establish Treza as the industry standard for secure computation.</p>
                     </div>
                     <div>
                       <h4 className="text-lg font-semibold text-indigo-300 mb-2">What We're Building</h4>
                       <ul className="space-y-2 text-gray-300">
                         <li className="flex items-start">
                           <span className="text-indigo-400 mr-2">•</span>
-                          Permissionless provider onboarding with automated TEE capability discovery
+                          Enterprise-grade compliance framework supporting SOC 2, HIPAA, and FedRAMP requirements
                         </li>
                         <li className="flex items-start">
                           <span className="text-indigo-400 mr-2">•</span>
-                          Global compute marketplace with multi-vendor TEE support
+                          Dedicated enterprise support with SLA guarantees and 24/7 technical assistance
                         </li>
                         <li className="flex items-start">
                           <span className="text-indigo-400 mr-2">•</span>
-                          Workload portability across Intel SGX, AMD SEV, ARM TrustZone, and emerging TEEs
+                          Strategic partnerships with cloud providers and system integrators for market expansion
                         </li>
                         <li className="flex items-start">
                           <span className="text-indigo-400 mr-2">•</span>
-                          Self-sovereign execution with cryptographic verification for any sensitive computation
+                          Professional services and consulting to accelerate enterprise adoption and implementation
                         </li>
                       </ul>
                     </div>
@@ -235,10 +235,10 @@ export const metadata = {
               <div className="mx-auto max-w-3xl mt-20 text-center">
                 <div className="bg-gray-900/50 rounded-2xl p-8 border border-gray-800">
                   <h2 className="text-2xl font-nacelle font-semibold text-gray-200 mb-4">
-                    Treza is building protocol infrastructure, not applications.
+                    Treza is building enterprise-grade secure compute infrastructure.
                   </h2>
                   <p className="text-lg text-indigo-200/65">
-                    Our roadmap transforms hardware-secured computation into a decentralized protocol — enabling any sensitive workload to run with cryptographic guarantees. We believe verifiable trusted execution will power the next wave of decentralized infrastructure — and Treza will be the protocol foundation.
+                    Our roadmap delivers trusted execution environments for enterprise AI, financial services, and regulated industries. Treza provides the secure compute foundation they need.
                   </p>
                 </div>
               </div>

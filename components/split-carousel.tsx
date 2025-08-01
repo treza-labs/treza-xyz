@@ -52,10 +52,10 @@ export default function SplitCarousel() {
                 <div className="relative mb-6 border-l [border-image:linear-gradient(to_bottom,transparent,--theme(--color-slate-400/.25),transparent)1] after:absolute after:left-0 after:top-0 after:h-4 after:w-px after:origin-bottom after:-translate-y-full after:animate-shine after:bg-[linear-gradient(180deg,transparent,--theme(--color-indigo-500/.5)_25%,--theme(--color-indigo-500)_50%,--theme(--color-indigo-500/.5)_75%,transparent)] after:opacity-0">
                   <div className="mb-4">
                     <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-                    Decentralized compute marketplace
+                    Advanced attention mechanisms
                     </h2>
                     <p className="text-indigo-200/65">
-                    Global marketplace for verifiable computation. Hardware providers contribute TEE capabilities, developers access secure execution environments.
+                    Intelligent resource allocation using multi-head attention networks. Dynamic workload prioritization and adaptive compute distribution based on real-time context analysis.
                     </p>
                   </div>
 

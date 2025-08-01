@@ -1,8 +1,8 @@
 export const metadata = {
-  title: "Treza Network - Deploy and monetize secure enclaves",
+  title: "Treza Network - Secure enclaves for any workload",
   description: "Deploy sensitive workloads in hardware-secured enclaves with cryptographic verification. TEE-agnostic protocol supporting Intel SGX, AMD SEV, and ARM TrustZone.",
   openGraph: {
-    title: "Treza Network - Deploy and monetize secure enclaves",
+    title: "Treza Network - Secure enclaves for any workload",
     description: "Deploy sensitive workloads in hardware-secured enclaves with cryptographic verification. TEE-agnostic protocol supporting Intel SGX, AMD SEV, and ARM TrustZone.",
     url: "https://trezalabs.com",
     siteName: "Treza Network",
@@ -11,7 +11,7 @@ export const metadata = {
         url: "/images/treza-banner.png",
         width: 1200,
         height: 630,
-        alt: "Treza Network - Deploy and monetize secure enclaves",
+        alt: "Treza Network - Secure enclaves for any workload",
       },
     ],
     locale: "en_US",
@@ -19,7 +19,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Treza Network - Deploy and monetize secure enclaves",
+    title: "Treza Network - Secure enclaves for any workload",
     description: "Deploy sensitive workloads in hardware-secured enclaves with cryptographic verification. TEE-agnostic protocol supporting Intel SGX, AMD SEV, and ARM TrustZone.",
     images: ["/images/treza-banner.png"],
   },

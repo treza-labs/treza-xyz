@@ -36,7 +36,7 @@ export default function Features() {
           <div className="mx-auto max-w-3xl pb-4 text-center md:pb-12">
             <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-linear-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-linear-to-l after:from-transparent after:to-indigo-200/50">
               <span className="inline-flex bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                TEE-Agnostic Protocol
+                Trusted Infrastructure
               </span>
             </div>
             <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
@@ -113,10 +113,10 @@ export default function Features() {
                 <path d="m16.321 2-.5-.866 1.733-1 .5.866A22 22 0 0 1 21 12c0 3.852-1.017 7.636-2.948 10.97l-.502.865-1.73-1.003.501-.865A19.878 19.878 0 0 0 19 12a20 20 0 0 0-2.679-10Z" />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-              Decentralized Marketplace
+              Performance Monitoring
               </h3>
               <p className="text-indigo-200/65">
-              Global network where hardware providers contribute TEE resources and earn TREZA rewards. Developers access secure execution environments.
+              Comprehensive execution analytics with detailed performance profiling. Real-time metrics, bottleneck detection, and optimization recommendations.
               </p>
             </article>
             <article>
@@ -170,10 +170,10 @@ export default function Features() {
                 <path d="M19 6H0v2h17v8H7v-6H5v8h19v-2h-5V6Z" />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Cryptoeconomic Security
+                On-Chain Verification
               </h3>
               <p className="text-indigo-200/65">
-              TREZA token alignment through staking, slashing, and reward multipliers. Economic incentives ensuring honest behavior and quality contributions.
+              Smart contracts that verify TEE attestation documents and execution proofs. Enabling trustless validation of off-chain computation results for DeFi and Web3 applications.
               </p>
             </article>
           </div>

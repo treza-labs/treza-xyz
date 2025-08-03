@@ -51,6 +51,13 @@ const teamMembers = [
     description: "Sarah specializes in modern web technologies and smart contract development, bringing innovative solutions to complex problems.",
     link: "",
   },
+  {
+    image: null, // Use placeholder avatar
+    name: "Brandon Torres",
+    role: "Engineer",
+    description: "Brandon contributes to the development and optimization of Treza's secure compute infrastructure.",
+    link: "https://www.linkedin.com/in/brandon-t-b94312ab/",
+  },
   // {
   //   image: null, // Use placeholder avatar
   //   name: "Marcus Thompson",

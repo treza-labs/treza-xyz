@@ -29,14 +29,6 @@ export default function Header() {
               </li> */}
               <li>
                 <Link
-                  href="/team"
-                  className="flex items-center px-2 py-1 text-gray-200 transition hover:text-indigo-500 lg:px-3"
-                >
-                  Team
-                </Link>
-              </li>
-              <li>
-                <Link
                   href="/roadmap"
                   className="flex items-center px-2 py-1 text-gray-200 transition hover:text-indigo-500 lg:px-3"
                 >
@@ -57,6 +49,14 @@ export default function Header() {
                   className="flex items-center px-2 py-1 text-gray-200 transition hover:text-indigo-500 lg:px-3"
                 >
                   Documentation
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/team"
+                  className="flex items-center px-2 py-1 text-gray-200 transition hover:text-indigo-500 lg:px-3"
+                >
+                  Team
                 </Link>
               </li>
               {/* 1st level: hover */}

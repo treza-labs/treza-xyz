@@ -48,7 +48,7 @@ const teamMembers = [
     image: null, // Use placeholder avatar
     name: "Brandon Torres",
     role: "Engineer",
-    description: "Brandon brings extensive experience with Rust and Solidity development, specializing in smart contracts and systems programming for secure infrastructure.",
+    description: "Brandon brings extensive experience with Rust and Solidity development, specializing in smart contracts and blockchain infrastructure.",
     link: "https://github.com/btorressz",
   },
   // {

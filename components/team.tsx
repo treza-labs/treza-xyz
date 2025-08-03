@@ -20,7 +20,7 @@ const teamMembers = [
     image: TeamImg01,
     name: "Alex Daro",
     role: "Co Founder, Developer",
-    description: "Alex Daro, former engineer at Marvel Studios and AOL, now leads Treza, a platform bringing secure compute to the next frontier of autonomous agents.",
+    description: "Alex Daro, former engineer at Marvel Studios and AOL, leads Treza's secure compute platform for autonomous agents.",
     link: "https://www.linkedin.com/in/alexdaro/",
   },
   {

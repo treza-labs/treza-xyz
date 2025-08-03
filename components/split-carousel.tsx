@@ -7,7 +7,6 @@ import { Transition } from "@headlessui/react";
 import CarouselImg01 from "@/public/images/carousel-01.png";
 import CarouselImg02 from "@/public/images/carousel-02.png";
 import CarouselImg03 from "@/public/images/carousel-03.png";
-import SmallTestimonialImg from "@/public/images/small-testimonial.jpg";
 
 const tabs = [
   {
@@ -87,25 +86,6 @@ export default function SplitCarousel() {
                       </Tab>
                     ))}
                   </TabList>
-                </div>
-                                <div>
-                  <p className="mb-4 font-nacelle text-gray-200">
-                    "Treza eliminates the complexity of managing secure infrastructure and key custody. We can focus on building our agents instead of worrying about dev ops and security vulnerabilities."
-                  </p>
-                  <div className="flex items-center gap-3">
-                    <Image
-                      className="inline-flex shrink-0 rounded-full"
-                      src={SmallTestimonialImg}
-                      width={24}
-                      height={24}
-                      alt="Small testimonial"
-                    />
-                    <div className="text-sm font-medium text-gray-200">
-                      <span>David Kim</span>
-                      <span className="text-gray-700"> - </span>
-                      <span className="text-indigo-200/65">Head of Engineering</span>
-                    </div>
-                  </div>
                 </div>
               </div>
 

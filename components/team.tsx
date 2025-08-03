@@ -48,7 +48,7 @@ const teamMembers = [
     image: null, // Use placeholder avatar
     name: "Brandon Torres",
     role: "Engineer",
-    description: "Brandon is passionate about web3/blockchain development and fintech, contributing to Treza's secure compute infrastructure with expertise in decentralized protocols.",
+    description: "Brandon brings extensive experience with Rust and Solidity development, contributing to Treza's secure compute infrastructure with expertise in smart contract development and systems programming.",
     link: "https://github.com/btorressz",
   },
   // {

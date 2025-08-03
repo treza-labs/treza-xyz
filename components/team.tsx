@@ -168,14 +168,12 @@ export default function Team() {
                           href={member.link}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className={`inline-flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700 transition-colors duration-200 ${
-                            socialIcon === 'github' ? 'w-12 h-12' : 'w-8 h-8'
-                          }`}
+                          className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-gray-800 hover:bg-gray-700 transition-colors duration-200"
                           aria-label={`${member.name}'s social media profile`}
                         >
                           {socialIcon === 'github' ? (
                             <svg
-                              className="w-8 h-8 fill-current opacity-75 hover:opacity-100 transition-opacity duration-200"
+                              className="w-5 h-5 fill-current opacity-75 hover:opacity-100 transition-opacity duration-200"
                               viewBox="0 0 32 32"
                               xmlns="http://www.w3.org/2000/svg"
                             >

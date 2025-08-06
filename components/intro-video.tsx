@@ -42,7 +42,7 @@ export default function IntroVideo() {
                 {/* Responsive video wrapper */}
                 <div className="relative aspect-video w-full">
                   <iframe
-                    src="https://www.youtube.com/embed/xzX-B23OuBo?rel=0&modestbranding=1&color=white&fs=1&cc_load_policy=0&iv_load_policy=3&theme=dark"
+                    src="https://www.youtube.com/embed/kbHlC0vi8sQ?rel=0&modestbranding=1&color=white&fs=1&cc_load_policy=0&iv_load_policy=3&theme=dark"
                     title="Intro to Treza"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowFullScreen

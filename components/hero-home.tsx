@@ -1,28 +1,20 @@
 import Image from "next/image";
-import VideoThumb from "@/public/images/bg-chart-2.png";
 import VideoThumb2 from "@/public/images/bg-chart.png";
 import ModalVideo from "@/components/modal-video";
 
 export default function HeroHome() {
   return (
     <section className="relative overflow-hidden">
-      {/* Hero background images */}
+      {/* Hero background image */}
       <div className="absolute inset-0 -z-10 w-full h-full">
         <Image
-          src={VideoThumb}
-          alt="Hero background 1"
-          fill
-          className="object-cover opacity-80"
-          priority
-        />
-        <Image
           src={VideoThumb2}
-          alt="Hero background 2"
+          alt="Hero background"
           fill
           className="object-cover opacity-30"
           priority
         />
-        {/* Optional: dark overlay for readability */}
+        {/* Dark overlay for readability */}
         <div className="absolute inset-0 bg-black/60" />
       </div>
       <div className="mx-auto max-w-6xl px-4 sm:px-6 relative z-10">

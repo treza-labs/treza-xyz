@@ -33,7 +33,7 @@ const teamMembers = [
   {
     image: JeffImg,
     name: "Jeff",
-    role: "Senior Engineer",
+    role: "Technical Advisor",
     description: "Jeff is a senior engineer with extensive experience at Google and Goldman Sachs, bringing deep expertise in large-scale systems and financial technology.",
     link: "https://www.linkedin.com/in/jeffcrans/",
   },

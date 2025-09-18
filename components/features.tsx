@@ -36,14 +36,14 @@ export default function Features() {
           <div className="mx-auto max-w-3xl pb-4 text-center md:pb-12">
             <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-linear-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-linear-to-l after:from-transparent after:to-indigo-200/50">
               <span className="inline-flex bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                Trusted Infrastructure
+                Private Infrastructure
               </span>
             </div>
             <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-            Universal Enclave Infrastructure
+            Universal Privacy Infrastructure
             </h2>
             <p className="text-lg text-indigo-200/65">
-            Deploy sensitive computation with hardware-level security. TEE-agnostic protocol supporting Intel SGX, AMD SEV, and ARM TrustZone.
+            Deploy your applications with hardware-level privacy protection. TEE-agnostic protocol supporting AWS Nitro Enclaves, Google Cloud's confidential VMs, Azure's trusted execution, and NVIDIA H100 secure computing.
             </p>
           </div>
           <div className="flex justify-center pb-4 md:pb-12" data-aos="fade-up">
@@ -71,10 +71,10 @@ export default function Features() {
                 />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-              Cryptographic Attestation
+              Cryptographic Privacy Proofs
               </h3>
               <p className="text-indigo-200/65">
-              Hardware-rooted proofs of execution integrity. Every job produces digitally signed attestations verifiable by any third party.
+              Hardware-rooted proofs of privacy preservation. Every job produces digitally signed privacy attestations verifiable by any third party.
               </p>
             </article>
             <article>
@@ -91,7 +91,7 @@ export default function Features() {
                 Multi-TEE Architecture
               </h3>
               <p className="text-indigo-200/65">
-              Unified interface across Intel SGX, AMD SEV, ARM TrustZone, and RISC-V Keystone. One API for all hardware architectures.
+              Unified interface across AWS Nitro Enclaves, Google Cloud Confidential Computing, Azure Confidential Computing, and NVIDIA H100 Confidential Computing. One API for all cloud providers.
               </p>
             </article>
             <article>
@@ -133,10 +133,10 @@ export default function Features() {
                 <path d="m7.454 2.891.891-.454L7.437.655l-.891.454a12 12 0 0 0 0 21.382l.89.454.91-1.781-.892-.455a10 10 0 0 1 0-17.818ZM17.456 1.11l-.891-.454-.909 1.782.891.454a10 10 0 0 1 0 17.819l-.89.454.908 1.781.89-.454a12 12 0 0 0 0-21.382Z" />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-              Isolated Compute Enclaves
+              Private Compute Enclaves
               </h3>
               <p className="text-indigo-200/65">
-                Cryptographically-isolated execution with memory encryption and integrity protection. Zero network exposure with tamper-resistant logging.
+                Cryptographically-private execution with memory encryption and confidentiality protection. Zero data exposure with privacy-preserving logging.
               </p>
             </article>
             <article>
@@ -156,7 +156,7 @@ export default function Features() {
               Developer SDK
               </h3>
               <p className="text-indigo-200/65">
-              Simple abstraction layer removing TEE complexity. Comprehensive APIs enabling secure integration without domain expertise.
+              Simple abstraction layer removing TEE complexity. Deploy Docker containers and applications with comprehensive APIs - no specialized knowledge required.
               </p>
             </article>
             <article>
@@ -173,7 +173,7 @@ export default function Features() {
                 On-Chain Verification
               </h3>
               <p className="text-indigo-200/65">
-              Smart contracts that verify TEE attestation documents and execution proofs. Enabling trustless validation of off-chain computation results for DeFi and Web3 applications.
+              Smart contracts that verify TEE privacy attestations and execution proofs. Enabling trustless validation of private off-chain computation results for DeFi and Web3 applications.
               </p>
             </article>
           </div>

@@ -13,14 +13,14 @@ export default function Workflows() {
           <div className="mx-auto max-w-3xl pb-12 text-center md:pb-20">
             <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-linear-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-linear-to-l after:from-transparent after:to-indigo-200/50">
               <span className="inline-flex bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                Trusted Execution Environments
+                Private Execution Environments
               </span>
             </div>
             <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-              Hardware-secured computation
+              Hardware-protected computation
             </h2>
             <p className="text-lg text-indigo-200/65">
-            Run sensitive workloads in verifiable enclaves with mathematical proof of execution integrity. From financial algorithms to AI models.
+            Run your applications in private enclaves with mathematical proof of privacy preservation. From Docker containers to APIs and microservices.
             </p>
           </div>
           {/* Spotlight items */}
@@ -61,12 +61,12 @@ export default function Workflows() {
                   <div className="mb-3">
                     <span className="btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_bottom,--theme(--color-gray-700/.15),--theme(--color-gray-700/.5))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-gray-800/60">
                       <span className="bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                        Secure Job Orchestration
+                        Private Job Orchestration
                       </span>
                     </span>
                   </div>
                   <p className="text-indigo-200/65">
-                  Secure job scheduling with task queuing and execution management. Hardware-secured key management with multi-signature support.
+                  Private job scheduling with task queuing and execution management. Hardware-protected key management with multi-signature support.
                   </p>
                 </div>
               </div>
@@ -112,7 +112,7 @@ export default function Workflows() {
                     </span>
                   </div>
                   <p className="text-indigo-200/65">
-                  Event-driven computation triggered by market signals or system events. Developer SDK for seamless integration.
+                  Event-driven applications triggered by webhooks, APIs, or system events. Deploy with Docker or use our SDK for seamless integration.
                   </p>
                 </div>
               </div>
@@ -153,12 +153,12 @@ export default function Workflows() {
                   <div className="mb-3">
                     <span className="btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_bottom,--theme(--color-gray-700/.15),--theme(--color-gray-700/.5))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-gray-800/60">
                       <span className="bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                         Cryptographically-Isolated Execution
+                         Cryptographically-Private Execution
                       </span>
                     </span>
                   </div>
                   <p className="text-indigo-200/65">
-                  Hardware-secured enclaves for sensitive workloads. Cryptographically-isolated environments with verifiable attestation.
+                  Hardware-protected enclaves for your applications. Run Docker containers in cryptographically-private environments with privacy attestation.
                   </p>
                 </div>
               </div>

@@ -1,6 +1,6 @@
 export const metadata = {
     title: "Roadmap - Treza Network",
-    description: "Secure enclaves for any workload - Treza's protocol development roadmap for decentralized TEE infrastructure",
+    description: "Private enclaves for any workload - Treza's protocol development roadmap for decentralized TEE infrastructure",
   };
   
   import PageIllustration from "@/components/page-illustration";
@@ -20,10 +20,10 @@ export const metadata = {
                   </span>
                 </div>
                 <h1 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-                Secure enclaves for any workload
+                Private enclaves for any workload
                 </h1>
                 <p className="text-lg text-indigo-200/65 mb-8">
-                  Treza is building enterprise-grade secure compute infrastructure using TEE-based trusted execution environments. This roadmap outlines our path from core execution frameworks to smart contract integration and enterprise adoption—enabling businesses to run sensitive workloads with cryptographic security guarantees.
+                  Treza is building enterprise-grade private compute infrastructure using TEE-based trusted execution environments. This roadmap outlines our path from core execution frameworks to smart contract integration and enterprise adoption—enabling businesses to run sensitive workloads with cryptographic privacy guarantees.
                 </p>
               </div>
 
@@ -51,30 +51,30 @@ export const metadata = {
                   <div className="pl-2">
                     <div className="mb-4">
                       <h4 className="text-lg font-semibold text-indigo-300 mb-2">Objective</h4>
-                      <p className="text-gray-300 mb-4">Establish the foundational execution layer with TEE abstraction, secure job scheduling, and cryptographic guarantees for arbitrary computation workloads.</p>
+                      <p className="text-gray-300 mb-4">Establish the foundational execution layer with TEE abstraction, private job scheduling, and cryptographic guarantees for arbitrary computation workloads.</p>
                     </div>
                     <div className="mb-4">
                       <h4 className="text-lg font-semibold text-indigo-300 mb-2">Why It Matters</h4>
-                      <p className="text-gray-300 mb-4">Before any sensitive workload can run securely, we need hardware-rooted execution primitives that provide mathematical guarantees rather than just contractual promises.</p>
+                      <p className="text-gray-300 mb-4">Before any sensitive workload can run privately, we need hardware-rooted execution primitives that provide mathematical privacy guarantees rather than just contractual promises.</p>
                     </div>
                     <div>
                       <h4 className="text-lg font-semibold text-indigo-300 mb-2">What We're Building</h4>
                       <ul className="space-y-2 text-gray-300">
                         <li className="flex items-start">
                           <span className="text-indigo-400 mr-2">•</span>
-                          TEE-agnostic execution layer supporting Intel SGX, AMD SEV, and ARM TrustZone
+                          TEE-agnostic execution layer supporting AWS Nitro Enclaves, Google Cloud's confidential VMs, Azure's trusted execution, and NVIDIA H100 secure computing
                         </li>
                         <li className="flex items-start">
                           <span className="text-indigo-400 mr-2">•</span>
-                          Secure job orchestration with cryptographic task verification
+                          Private job orchestration with cryptographic task verification
                         </li>
                         <li className="flex items-start">
                           <span className="text-indigo-400 mr-2">•</span>
-                          Hardware-secured key management and signing capabilities
+                          Hardware-protected key management and signing capabilities
                         </li>
                         <li className="flex items-start">
                           <span className="text-indigo-400 mr-2">•</span>
-                          Developer SDK for deploying workloads to trusted execution environments
+                          Developer SDK for deploying Docker containers and applications to trusted execution environments
                         </li>
                       </ul>
                     </div>
@@ -102,11 +102,11 @@ export const metadata = {
                   <div className="pl-2">
                     <div className="mb-4">
                       <h4 className="text-lg font-semibold text-indigo-300 mb-2">Objective</h4>
-                      <p className="text-gray-300 mb-4">Implement hardware-rooted cryptographic attestation with digitally signed execution proofs, enabling mathematically verifiable computation results across heterogeneous TEE technologies.</p>
+                      <p className="text-gray-300 mb-4">Implement hardware-rooted cryptographic privacy attestation with digitally signed execution proofs, enabling mathematically verifiable private computation results across heterogeneous TEE technologies.</p>
                     </div>
                     <div className="mb-4">
                       <h4 className="text-lg font-semibold text-indigo-300 mb-2">Why It Matters</h4>
-                      <p className="text-gray-300 mb-4">Trust-minimized computation requires cryptographic proofs, not just isolation. Attestation transforms opaque execution into verifiable, auditable processes.</p>
+                      <p className="text-gray-300 mb-4">Privacy-preserving computation requires cryptographic proofs, not just isolation. Privacy attestation transforms opaque execution into verifiable, auditable private processes.</p>
                     </div>
                     <div>
                       <h4 className="text-lg font-semibold text-indigo-300 mb-2">What We're Building</h4>
@@ -117,7 +117,7 @@ export const metadata = {
                         </li>
                         <li className="flex items-start">
                           <span className="text-indigo-400 mr-2">•</span>
-                          Multi-TEE support with unified attestation across Intel SGX, AMD SEV, and ARM TrustZone
+                          Multi-TEE support with unified privacy attestation across AWS Nitro Enclaves, Google Cloud's confidential VMs, Azure's trusted execution, and NVIDIA H100
                         </li>
                         <li className="flex items-start">
                           <span className="text-indigo-400 mr-2">•</span>
@@ -153,18 +153,18 @@ export const metadata = {
                   <div className="pl-2">
                     <div className="mb-4">
                       <h4 className="text-lg font-semibold text-indigo-300 mb-2">Objective</h4>
-                      <p className="text-gray-300 mb-4">Build smart contracts that verify and utilize attestation documents from secure enclaves. Enable trustless verification of off-chain computation results through programmable on-chain validation.</p>
+                      <p className="text-gray-300 mb-4">Build smart contracts that verify and utilize privacy attestation documents from private enclaves. Enable trustless verification of off-chain computation results through programmable on-chain validation.</p>
                     </div>
                     <div className="mb-4">
                       <h4 className="text-lg font-semibold text-indigo-300 mb-2">Why It Matters</h4>
-                      <p className="text-gray-300 mb-4">Bridging off-chain secure execution with on-chain verification creates trustless computation workflows. Smart contracts can programmatically validate execution integrity without requiring trust in centralized attestation authorities.</p>
+                      <p className="text-gray-300 mb-4">Bridging off-chain private execution with on-chain verification creates trustless computation workflows. Smart contracts can programmatically validate execution integrity without requiring trust in centralized attestation authorities.</p>
                     </div>
                     <div>
                       <h4 className="text-lg font-semibold text-indigo-300 mb-2">What We're Building</h4>
                       <ul className="space-y-2 text-gray-300">
                         <li className="flex items-start">
                           <span className="text-indigo-400 mr-2">•</span>
-                          Smart contract libraries for verifying TEE attestation documents and execution proofs
+                          Smart contract libraries for verifying TEE privacy attestation documents and execution proofs
                         </li>
                         <li className="flex items-start">
                           <span className="text-indigo-400 mr-2">•</span>
@@ -200,11 +200,11 @@ export const metadata = {
                   <div className="pl-2">
                     <div className="mb-4">
                       <h4 className="text-lg font-semibold text-indigo-300 mb-2">Objective</h4>
-                      <p className="text-gray-300 mb-4">Launch enterprise-ready platform with comprehensive compliance features, dedicated support, and strategic partnerships — enabling Fortune 500 companies to adopt secure compute at scale.</p>
+                      <p className="text-gray-300 mb-4">Launch enterprise-ready platform with comprehensive compliance features, dedicated support, and strategic partnerships — enabling Fortune 500 companies to adopt private compute at scale.</p>
                     </div>
                     <div className="mb-4">
                       <h4 className="text-lg font-semibold text-indigo-300 mb-2">Why It Matters</h4>
-                      <p className="text-gray-300 mb-4">Enterprise adoption drives sustainable growth and validates our technology at scale. Strategic partnerships and compliance frameworks unlock new markets and establish Treza as the industry standard for secure computation.</p>
+                      <p className="text-gray-300 mb-4">Enterprise adoption drives sustainable growth and validates our technology at scale. Strategic partnerships and compliance frameworks unlock new markets and establish Treza as the industry standard for private computation.</p>
                     </div>
                     <div>
                       <h4 className="text-lg font-semibold text-indigo-300 mb-2">What We're Building</h4>
@@ -234,11 +234,11 @@ export const metadata = {
               {/* Closing Statement */}
               <div className="mx-auto max-w-3xl mt-20 text-center">
                 <div className="bg-gray-900/50 rounded-2xl p-8 border border-gray-800">
-                  <h2 className="text-2xl font-nacelle font-semibold text-gray-200 mb-4">
-                    Treza is building enterprise-grade secure compute infrastructure.
+                    <h2 className="text-2xl font-nacelle font-semibold text-gray-200 mb-4">
+                    Treza is building enterprise-grade private compute infrastructure.
                   </h2>
                   <p className="text-lg text-indigo-200/65">
-                    Our roadmap delivers trusted execution environments for enterprise AI, financial services, and regulated industries. Treza provides the secure compute foundation they need.
+                    Our roadmap delivers private execution environments for enterprise AI, financial services, and regulated industries. Treza provides the private compute foundation they need.
                   </p>
                 </div>
               </div>

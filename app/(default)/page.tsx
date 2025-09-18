@@ -1,9 +1,9 @@
 export const metadata = {
-  title: "Treza Network - Secure enclaves for any workload",
-  description: "Deploy sensitive workloads in hardware-secured enclaves with cryptographic verification. TEE-agnostic protocol supporting Intel SGX, AMD SEV, and ARM TrustZone.",
+  title: "Treza Network - Private enclaves for any workload",
+  description: "Deploy your applications in hardware-protected enclaves with cryptographic privacy guarantees. Run Docker containers on AWS Nitro, Google Cloud, and Azure's trusted execution environments.",
   openGraph: {
-    title: "Treza Network - Secure enclaves for any workload",
-    description: "Deploy sensitive workloads in hardware-secured enclaves with cryptographic verification. TEE-agnostic protocol supporting Intel SGX, AMD SEV, and ARM TrustZone.",
+    title: "Treza Network - Private enclaves for any workload",
+    description: "Deploy your applications in hardware-protected enclaves with cryptographic privacy guarantees. Run Docker containers on AWS Nitro, Google Cloud, and Azure's trusted execution environments.",
     url: "https://trezalabs.com",
     siteName: "Treza Network",
     images: [
@@ -11,7 +11,7 @@ export const metadata = {
         url: "/images/treza-banner.png",
         width: 1200,
         height: 630,
-        alt: "Treza Network - Secure enclaves for any workload",
+        alt: "Treza Network - Private enclaves for any workload",
       },
     ],
     locale: "en_US",
@@ -19,8 +19,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Treza Network - Secure enclaves for any workload",
-    description: "Deploy sensitive workloads in hardware-secured enclaves with cryptographic verification. TEE-agnostic protocol supporting Intel SGX, AMD SEV, and ARM TrustZone.",
+    title: "Treza Network - Private enclaves for any workload",
+    description: "Deploy your applications in hardware-protected enclaves with cryptographic privacy guarantees. Run Docker containers on AWS Nitro, Google Cloud, and Azure's trusted execution environments.",
     images: ["/images/treza-banner.png"],
   },
 };

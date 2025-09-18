@@ -10,23 +10,23 @@ import CarouselImg03 from "@/public/images/carousel-03.png";
 
 const tabs = [
   {
-    title: "Cryptographic Attestation",
+    title: "Privacy Attestation",
     description:
-      "Hardware-rooted proofs of execution integrity with digitally signed attestations. Every job provides verifiable evidence of code authenticity and environment isolation.",
+      "Hardware-rooted proofs of privacy preservation with digitally signed attestations. Every application provides verifiable evidence of confidential execution and data protection.",
     img: CarouselImg01,
     imgAlt: "Carousel image 01",
   },
   {
-    title: "Provider Network",
+    title: "Cloud Integration",
     description:
-      "Distributed fleet of compute providers running TEE-enabled hardware. Providers execute jobs in isolated enclaves and submit verifiable results.",
+      "Seamless integration with major cloud providers' confidential computing services. Deploy across AWS Nitro, Google Cloud, and Azure with unified APIs.",
     img: CarouselImg02,
     imgAlt: "Carousel image 02",
   },
   {
     title: "TEE Abstraction Layer",
     description:
-      "Unified interface across Intel SGX, AMD SEV, ARM TrustZone, and RISC-V architectures. Hardware-agnostic deployment with consistent security guarantees.",
+      "Unified interface across cloud providers' confidential computing platforms. Hardware-agnostic deployment with consistent privacy guarantees.",
     img: CarouselImg03,
     imgAlt: "Carousel image 03",
   },
@@ -45,16 +45,16 @@ export default function SplitCarousel() {
               <div className="shrink-0 md:w-[500px] *:pl-7">
                 <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-linear-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-linear-to-l after:from-transparent after:to-indigo-200/50">
                   <span className="inline-flex bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                  Decentralized Protocol
+                  Developer Platform
                   </span>
                 </div>
                 <div className="relative mb-6 border-l [border-image:linear-gradient(to_bottom,transparent,--theme(--color-slate-400/.25),transparent)1] after:absolute after:left-0 after:top-0 after:h-4 after:w-px after:origin-bottom after:-translate-y-full after:animate-shine after:bg-[linear-gradient(180deg,transparent,--theme(--color-indigo-500/.5)_25%,--theme(--color-indigo-500)_50%,--theme(--color-indigo-500/.5)_75%,transparent)] after:opacity-0">
                   <div className="mb-4">
                     <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-                    Advanced attention mechanisms
+                    Simple deployment workflow
                     </h2>
                     <p className="text-indigo-200/65">
-                    Intelligent resource allocation using multi-head attention networks. Dynamic workload prioritization and adaptive compute distribution based on real-time context analysis.
+                    Deploy your Docker containers and applications with simple APIs. Automatic resource allocation and workload distribution across cloud providers' confidential computing infrastructure.
                     </p>
                   </div>
 

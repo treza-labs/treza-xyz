@@ -26,7 +26,7 @@ export default function HeroHome() {
               className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-5 font-nacelle text-4xl font-semibold text-transparent md:text-5xl"
               data-aos="fade-up"
             >
-              Secure enclaves for any workload
+              Private enclaves for any workload
             </h1>
             <div className="mx-auto max-w-3xl">
               <p
@@ -34,7 +34,7 @@ export default function HeroHome() {
                 data-aos="fade-up"
                 data-aos-delay={200}
               >
-                Deploy sensitive workloads in hardware-secured enclaves with cryptographic verification. Support for financial algorithms, AI models, and any computation requiring secure execution.
+                Deploy your applications in hardware-protected enclaves with cryptographic privacy guarantees. Run Docker containers, APIs, and any workload requiring confidential execution with simple developer tools.
               </p>
               <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
                 <div data-aos="fade-up" data-aos-delay={400}>

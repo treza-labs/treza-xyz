@@ -26,7 +26,7 @@ const teamMembers = [
   {
     image: TeamImg02,
     name: "QueensPawn",
-    role: "Co Founder, Head of Sales",
+    role: "Co Founder, Business Development",
     description: "QueensPawn is a 8-year crypto veteran with a background in sales and product marketing.",
     link: "https://t.me/queenspawn10",
   },

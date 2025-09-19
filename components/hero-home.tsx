@@ -34,7 +34,7 @@ export default function HeroHome() {
                 data-aos="fade-up"
                 data-aos-delay={200}
               >
-                Deploy your applications in hardware-protected enclaves with cryptographic privacy guarantees. Run Docker containers, APIs, and any workload requiring confidential execution with simple developer tools.
+                Deploy your applications in hardware-protected enclaves with cryptographic privacy guarantees. Run containers, APIs, and any workload requiring confidential execution with simple developer tools.
               </p>
               <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
                 <div data-aos="fade-up" data-aos-delay={400}>

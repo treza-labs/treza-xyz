@@ -101,7 +101,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Brand
+                  Media Kit
                 </a>
               </li>
               <li>
@@ -109,7 +109,7 @@ export default function Footer() {
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="https://docs.trezalabs.com/"
                 >
-                  Docs
+                  Documentation
                 </a>
               </li>
             </ul>

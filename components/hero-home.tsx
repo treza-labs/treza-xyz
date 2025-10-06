@@ -11,7 +11,7 @@ export default function HeroHome() {
           src={VideoThumb2}
           alt="Hero background"
           fill
-          className="object-cover opacity-30"
+          className="object-contain opacity-30 scale-75"
           priority
         />
         {/* Dark overlay for readability */}
@@ -26,7 +26,7 @@ export default function HeroHome() {
               className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-5 font-nacelle text-4xl font-semibold text-transparent md:text-5xl"
               data-aos="fade-up"
             >
-              Private enclaves for any workload
+              Privacy infra for crypto and finance
             </h1>
             <div className="mx-auto max-w-3xl">
               <p
@@ -34,7 +34,7 @@ export default function HeroHome() {
                 data-aos="fade-up"
                 data-aos-delay={200}
               >
-                Deploy your applications in hardware-protected enclaves with cryptographic privacy guarantees. Run containers, APIs, and any workload requiring confidential execution with simple developer tools.
+                Deploy your applications in hardware-protected enclaves with cryptographic privacy guarantees. <span className="hidden sm:inline">Run containers, APIs and AI workloads with simple, privacy-focused developer tools.</span>
               </p>
               <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
                 <div data-aos="fade-up" data-aos-delay={400}>

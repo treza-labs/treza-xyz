@@ -34,6 +34,7 @@ import Features from "@/components/features";
 // import Pricing from "@/components/pricing-home";
 import SplitCarousel from "@/components/split-carousel";
 import Clients from "@/components/clients";
+import Faqs from "@/components/faqs";
 import Cta from "@/components/cta";
 
 export default function Home() {
@@ -41,15 +42,39 @@ export default function Home() {
     <>
       <PageIllustration />
       <Hero />
-      <IntroVideo />
-      <Workflows />
-      <Features />
-      <Clients />
-      <SplitCarousel />
-      <ApplicationsTeaser />
       
-      {/* <Pricing /> */}
-      <Cta />
+      <div className="mt-16 md:mt-24">
+        <IntroVideo />
+      </div>
+      
+      <div className="mt-16 md:mt-24">
+        <Workflows />
+      </div>
+      
+      <div className="mt-16 md:mt-24">
+        <Features />
+      </div>
+      
+      <div className="mt-16 md:mt-24">
+        <Clients />
+      </div>
+      
+      <div className="mt-16 md:mt-24">
+        <SplitCarousel />
+      </div>
+      
+      <div className="mt-16 md:mt-24">
+        <ApplicationsTeaser />
+      </div>
+      
+      <div className="mt-16 md:mt-24">
+        <Faqs />
+      </div>
+      
+      <div className="mt-16 md:mt-24">
+        {/* <Pricing /> */}
+        <Cta />
+      </div>
     </>
   );
 }

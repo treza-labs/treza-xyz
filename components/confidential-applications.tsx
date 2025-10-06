@@ -253,7 +253,7 @@ export default function ConfidentialApplications() {
                   href="/contact"
                   className="btn bg-gradient-to-t from-indigo-600 to-indigo-500 text-white shadow-lg hover:from-indigo-700 hover:to-indigo-600"
                 >
-                  Request Custom Demo
+                  Request Demo
                 </a>
                 <a
                   href="https://docs.trezalabs.com/"

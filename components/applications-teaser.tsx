@@ -101,7 +101,7 @@ export default function ApplicationsTeaser() {
                   <div className="flex flex-col gap-3 sm:flex-row">
                     <a
                       href="/applications"
-                      className="inline-flex items-center gap-2 rounded-lg bg-white/10 px-6 py-3 font-medium text-white transition-colors hover:bg-white/20"
+                      className="inline-flex items-center justify-center gap-2 rounded-lg bg-white/10 px-6 py-3 font-medium text-white transition-colors hover:bg-white/20"
                     >
                       Explore Applications
                       <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

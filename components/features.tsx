@@ -33,7 +33,7 @@ export default function Features() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="border-t py-12 [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-400/.25),transparent)1] md:py-20">
           {/* Section header */}
-          <div className="mx-auto max-w-3xl pb-4 text-center md:pb-12">
+          <div className="mx-auto max-w-3xl pb-12 text-center md:pb-16">
             <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-linear-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-linear-to-l after:from-transparent after:to-indigo-200/50">
               <span className="inline-flex bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
                 Private Infrastructure
@@ -45,15 +45,6 @@ export default function Features() {
             <p className="text-lg text-indigo-200/65">
             Deploy your applications with hardware-level privacy protection. TEE-agnostic protocol supporting AWS Nitro Enclaves, Google Cloud's confidential VMs, Azure's trusted execution, and NVIDIA H100 secure computing.
             </p>
-          </div>
-          <div className="flex justify-center pb-4 md:pb-12" data-aos="fade-up">
-            <Image
-              className="max-w-none"
-              src={FeaturesImage}
-              width={1104}
-              height={384}
-              alt="Features"
-            />
           </div>
           {/* Items */}
           <div className="mx-auto grid max-w-sm gap-12 sm:max-w-none sm:grid-cols-2 md:gap-x-14 md:gap-y-16 lg:grid-cols-3">

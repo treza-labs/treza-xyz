@@ -29,6 +29,7 @@ import PageIllustration from "@/components/page-illustration";
 import Hero from "@/components/hero-home";
 import IntroVideo from "@/components/intro-video";
 import Workflows from "@/components/workflows";
+import ApplicationsTeaser from "@/components/applications-teaser";
 import Features from "@/components/features";
 // import Pricing from "@/components/pricing-home";
 import SplitCarousel from "@/components/split-carousel";
@@ -45,6 +46,7 @@ export default function Home() {
       <Features />
       <Clients />
       <SplitCarousel />
+      <ApplicationsTeaser />
       
       {/* <Pricing /> */}
       <Cta />

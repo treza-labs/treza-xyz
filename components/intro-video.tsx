@@ -19,7 +19,7 @@ export default function IntroVideo() {
       </div>
       
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <div className="py-0 pb-16 md:py-20">
+        <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="mx-auto max-w-3xl pb-12 text-center md:pb-16">
             <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-linear-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-linear-to-l after:from-transparent after:to-indigo-200/50">

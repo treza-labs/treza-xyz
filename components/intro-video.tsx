@@ -31,7 +31,7 @@ export default function IntroVideo() {
               Intro to Treza
             </h2>
             <p className="text-lg text-indigo-200/65">
-              Watch our comprehensive introduction to understand how Treza enables secure, verifiable computation in hardware-protected enclaves.
+              Understand how Treza enables secure, verifiable computation in trusted execution environments.
             </p>
           </div>
 

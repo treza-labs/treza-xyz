@@ -17,10 +17,10 @@ export default function Workflows() {
               </span>
             </div>
             <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-              Hardware-protected computation
+              Secure enclave computation
             </h2>
             <p className="text-lg text-indigo-200/65">
-            Run your applications in private enclaves with mathematical proof of privacy preservation. From Docker containers to APIs and microservices.
+            Run your applications in private enclaves with guaranteed privacy protection. From Docker containers to APIs and microservices.
             </p>
           </div>
           {/* Spotlight items */}
@@ -158,7 +158,7 @@ export default function Workflows() {
                     </span>
                   </div>
                   <p className="text-indigo-200/65">
-                  Hardware-protected enclaves for your applications. Run Docker containers in cryptographically-private environments with privacy attestation.
+                  Secure enclaves for your applications. Run Docker containers in cryptographically-private environments with privacy attestation.
                   </p>
                 </div>
               </div>

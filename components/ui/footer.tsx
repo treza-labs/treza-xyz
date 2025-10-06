@@ -107,9 +107,9 @@ export default function Footer() {
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="/team"
+                  href="https://docs.trezalabs.com/"
                 >
-                  Careers
+                  Docs
                 </a>
               </li>
             </ul>
@@ -169,9 +169,9 @@ export default function Footer() {
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="https://docs.trezalabs.com/use-cases/reactive-execution"
+                  href="https://docs.trezalabs.com/use-cases/cryptographic-compliance"
                 >
-                  Reactive Execution
+                  Compliance
                 </a>
               </li>
               {/* <li>

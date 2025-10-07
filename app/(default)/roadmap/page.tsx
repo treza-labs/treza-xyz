@@ -46,6 +46,7 @@ export const metadata = {
                         aria-hidden="true"
                       />
                       <h3 className="text-xl font-nacelle font-semibold text-gray-200">Core Execution Framework</h3>
+                      <span className="ml-3 text-sm text-indigo-400">Q2 2026</span>
                     </div>
                   </div>
                   <div className="pl-2">
@@ -97,6 +98,7 @@ export const metadata = {
                         aria-hidden="true"
                       />
                       <h3 className="text-xl font-nacelle font-semibold text-gray-200">Cryptographic Attestation & Verification</h3>
+                      <span className="ml-3 text-sm text-indigo-400">Q3 2026</span>
                     </div>
                   </div>
                   <div className="pl-2">
@@ -148,6 +150,7 @@ export const metadata = {
                         aria-hidden="true"
                       />
                       <h3 className="text-xl font-nacelle font-semibold text-gray-200">On-Chain Verification & Smart Contracts</h3>
+                      <span className="ml-3 text-sm text-indigo-400">Q3 2026</span>
                     </div>
                   </div>
                   <div className="pl-2">
@@ -195,6 +198,7 @@ export const metadata = {
                         aria-hidden="true"
                       />
                       <h3 className="text-xl font-nacelle font-semibold text-gray-200">Enterprise Platform & Go-to-Market</h3>
+                      <span className="ml-3 text-sm text-indigo-400">Q4 2026</span>
                     </div>
                   </div>
                   <div className="pl-2">

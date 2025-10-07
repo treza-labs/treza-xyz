@@ -3,6 +3,8 @@ import Image from "next/image";
 import TeamImg01 from "@/public/images/profile2.jpg";
 import TeamImg02 from "@/public/images/guo.jpg";
 import JeffImg from "@/public/images/jeff.jpeg";
+import BrandonImg from "@/public/images/brandon.jpeg";
+import AlanImg from "@/public/images/alan.jpeg";
 import LinkedInIcon from "@/public/images/linkedin.svg";
 import TelegramIcon from "@/public/images/telegram.svg";
 import PlaceholderAvatar from "./placeholder-avatar";
@@ -18,9 +20,9 @@ import PlaceholderAvatar from "./placeholder-avatar";
 const teamMembers = [
   {
     image: TeamImg01,
-    name: "Alex Daro",
+    name: "Alex",
     role: "Co Founder, Developer",
-    description: "Former Marvel Studios and AOL engineer Alex Daro leads Treza's secure compute platform for autonomous agents.",
+    description: "Former Marvel Studios and AOL engineer leading Treza's secure compute platform for autonomous agents.",
     link: "https://www.linkedin.com/in/alexdaro/",
   },
   {
@@ -45,11 +47,25 @@ const teamMembers = [
     link: "https://t.me/itsLukasx",
   },  
   {
-    image: null, // Use placeholder avatar
+    image: BrandonImg,
     name: "Brandon",
     role: "Engineer",
     description: "Brandon brings extensive experience with Rust and Solidity development, specializing in smart contracts and blockchain infrastructure.",
     link: "https://github.com/btorressz",
+  },
+  {
+    image: AlanImg,
+    name: "Alan",
+    role: "Director of Marketing",
+    description: "Alan is a marketing specialist with experience at Binance, bringing deep expertise in cryptocurrency and blockchain marketing strategies.",
+    link: "https://www.linkedin.com/in/alan-d-274520210/",
+  },
+  {
+    image: null, // Use placeholder avatar
+    name: "Nicholas",
+    role: "Advisor",
+    description: "Nicholas is a cloud solutions architect with extensive experience at Apple, Fox, and Verizon, bringing deep expertise in enterprise cloud infrastructure.",
+    link: "https://www.linkedin.com/in/nicholasstokes/",
   },
   // {
   //   image: null, // Use placeholder avatar
@@ -131,7 +147,7 @@ export default function Team() {
           {/* Section header */}
           <div className="mx-auto max-w-3xl pb-12 text-center md:pb-20">
             <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-              It's all about the people
+              Meet the Team
             </h2>
           </div>
           {/* Members */}
@@ -173,7 +189,7 @@ export default function Team() {
                         >
                           {socialIcon === 'github' ? (
                             <svg
-                              className="w-6 h-6 fill-current opacity-75 hover:opacity-100 transition-opacity duration-200"
+                              className="w-6 h-6 fill-current text-indigo-400 opacity-75 hover:opacity-100 transition-opacity duration-200"
                               viewBox="0 0 32 32"
                               xmlns="http://www.w3.org/2000/svg"
                             >

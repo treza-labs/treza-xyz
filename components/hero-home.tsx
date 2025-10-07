@@ -15,7 +15,7 @@ export default function HeroHome() {
           priority
         />
         {/* Dark overlay for readability */}
-        <div className="absolute inset-0 bg-black/60" />
+        <div className="absolute inset-0 bg-gray-950/80" />
       </div>
       <div className="mx-auto max-w-6xl px-4 sm:px-6 relative z-10">
         {/* Hero content */}

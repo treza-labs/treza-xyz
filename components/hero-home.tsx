@@ -11,17 +11,17 @@ export default function HeroHome() {
           src={VideoThumb2}
           alt="Hero background"
           fill
-          className="object-contain opacity-40 scale-85"
+          className="object-contain opacity-45 scale-90 lg:translate-y-0 -translate-y-32"
           priority
         />
         {/* Dark overlay for readability */}
-        <div className="absolute inset-0 bg-gray-950/75" />
+        <div className="absolute inset-0 bg-gray-950/70" />
         {/* Bottom gradient fade */}
-        <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-gray-950 via-gray-950/90 to-transparent" />
+        <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-gray-950 via-gray-950/85 to-transparent" />
         {/* Left gradient fade */}
-        <div className="absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-gray-950 via-gray-950/80 to-transparent" />
+        <div className="absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-gray-950 via-gray-950/75 to-transparent" />
         {/* Right gradient fade */}
-        <div className="absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l from-gray-950 via-gray-950/80 to-transparent" />
+        <div className="absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l from-gray-950 via-gray-950/75 to-transparent" />
       </div>
 
 
@@ -266,7 +266,7 @@ export default function HeroHome() {
 
           {/* Right column - Hero cube image */}
           <div className="relative flex items-center justify-center lg:justify-end" data-aos="fade-left" data-aos-delay={300}>
-            <div className="relative w-full max-w-lg aspect-square pointer-events-none" aria-hidden="true">
+            <div className="relative w-full max-w-lg aspect-square pointer-events-none after:absolute after:left-0 after:top-0 after:h-8 after:w-px after:origin-bottom after:-translate-y-full after:animate-shine after:bg-[linear-gradient(180deg,transparent,--theme(--color-indigo-500/.5)_25%,--theme(--color-indigo-500)_50%,--theme(--color-indigo-500/.5)_75%,transparent)] after:opacity-0 lg:after:hidden" aria-hidden="true">
               <svg width="100%" height="100%" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                   <filter id="glow-right">
@@ -276,11 +276,50 @@ export default function HeroHome() {
                       <feMergeNode in="SourceGraphic"/>
                     </feMerge>
                   </filter>
+                  
+                  {/* Enhanced glow for center line */}
+                  <filter id="center-glow">
+                    <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+                    <feGaussianBlur stdDeviation="20" result="coloredBlurBig"/>
+                    <feMerge>
+                      <feMergeNode in="coloredBlurBig"/>
+                      <feMergeNode in="coloredBlur"/>
+                      <feMergeNode in="SourceGraphic"/>
+                    </feMerge>
+                  </filter>
+                  
                   <linearGradient id="indigo-glow-right" x1="100%" y1="0%" x2="0%" y2="100%">
                     <stop offset="0%" stopColor="#818cf8" stopOpacity="1" />
                     <stop offset="50%" stopColor="#6366f1" stopOpacity="1" />
                     <stop offset="100%" stopColor="#4f46e5" stopOpacity="0.8" />
                   </linearGradient>
+                  
+                  {/* Animated shine gradient for cube edges with faster fade */}
+                  <linearGradient id="shine-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" stopColor="#818cf8" stopOpacity="0">
+                      <animate attributeName="offset" values="0;0.4;0.6;1" dur="4s" repeatCount="indefinite" />
+                    </stop>
+                    <stop offset="20%" stopColor="#a5b4fc" stopOpacity="0.8">
+                      <animate attributeName="offset" values="0.2;0.5;0.7;1" dur="4s" repeatCount="indefinite" />
+                      <animate attributeName="stop-opacity" values="0;0.8;0.8;0.8;0.8;0" dur="4s" repeatCount="indefinite" />
+                    </stop>
+                    <stop offset="40%" stopColor="#818cf8" stopOpacity="0">
+                      <animate attributeName="offset" values="0.4;0.6;0.8;1" dur="4s" repeatCount="indefinite" />
+                    </stop>
+                  </linearGradient>
+                  
+                  {/* Detailed mesh pattern for cube */}
+                  <pattern id="mesh-pattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                    {/* Main grid lines */}
+                    <line x1="0" y1="0" x2="0" y2="20" stroke="#6366f1" strokeWidth="0.6" opacity="0.4" />
+                    <line x1="0" y1="0" x2="20" y2="0" stroke="#6366f1" strokeWidth="0.6" opacity="0.4" />
+                    {/* Sub-grid lines for more detail */}
+                    <line x1="10" y1="0" x2="10" y2="20" stroke="#818cf8" strokeWidth="0.3" opacity="0.2" />
+                    <line x1="0" y1="10" x2="20" y2="10" stroke="#818cf8" strokeWidth="0.3" opacity="0.2" />
+                    {/* Small dots at intersections */}
+                    <circle cx="0" cy="0" r="0.8" fill="#818cf8" opacity="0.5" />
+                    <circle cx="10" cy="10" r="0.5" fill="#6366f1" opacity="0.3" />
+                  </pattern>
                 </defs>
                 
                 {/* Single static cube with improved shading - oriented upward */}
@@ -290,14 +329,29 @@ export default function HeroHome() {
                         fill="rgba(129,140,248,0.25)"
                         stroke="none" />
                   
+                  {/* Top face mesh overlay */}
+                  <path d="M300 80 L520 160 L300 240 L80 160 Z" 
+                        fill="url(#mesh-pattern)"
+                        stroke="none" />
+                  
                   {/* Left face shading - medium dark */}
                   <path d="M80 160 L300 240 L300 480 L80 400 Z" 
                         fill="rgba(79,70,229,0.12)"
                         stroke="none" />
                   
+                  {/* Left face mesh overlay */}
+                  <path d="M80 160 L300 240 L300 480 L80 400 Z" 
+                        fill="url(#mesh-pattern)"
+                        stroke="none" />
+                  
                   {/* Right face shading - darkest */}
                   <path d="M300 240 L520 160 L520 400 L300 480 Z" 
                         fill="rgba(79,70,229,0.18)"
+                        stroke="none" />
+                  
+                  {/* Right face mesh overlay */}
+                  <path d="M300 240 L520 160 L520 400 L300 480 Z" 
+                        fill="url(#mesh-pattern)"
                         stroke="none" />
                   
                   {/* Cube outline */}
@@ -307,19 +361,78 @@ export default function HeroHome() {
                         fill="none"
                         className="drop-shadow-[0_0_35px_rgba(99,102,241,1)]" />
                   
-                  {/* Center vertical line - very visible */}
-                  <path d="M300 80 L300 240" 
-                        stroke="url(#indigo-glow-right)" 
-                        strokeWidth="3" 
-                        opacity="1"
-                        className="drop-shadow-[0_0_30px_rgba(129,140,248,1)]" />
+                  {/* Animated shine overlays on all edges */}
+                  <g>
+                    {/* Top edges shine */}
+                    <path d="M300 80 L520 160" 
+                          stroke="url(#shine-gradient)" 
+                          strokeWidth="4" 
+                          fill="none"
+                          opacity="0.8" />
+                    <path d="M300 80 L80 160" 
+                          stroke="url(#shine-gradient)" 
+                          strokeWidth="4" 
+                          fill="none"
+                          opacity="0.8" />
+                    
+                    {/* Vertical edges shine */}
+                    <path d="M80 160 L80 400" 
+                          stroke="url(#shine-gradient)" 
+                          strokeWidth="4" 
+                          fill="none"
+                          opacity="0.6" />
+                    <path d="M520 160 L520 400" 
+                          stroke="url(#shine-gradient)" 
+                          strokeWidth="4" 
+                          fill="none"
+                          opacity="0.6" />
+                    
+                    {/* Center vertical line shine - full line */}
+                    <path d="M300 80 L300 480" 
+                          stroke="url(#shine-gradient)" 
+                          strokeWidth="4" 
+                          fill="none"
+                          opacity="0.7" />
+                    
+                    {/* Internal down lines shine */}
+                    <path d="M80 160 L300 240" 
+                          stroke="url(#shine-gradient)" 
+                          strokeWidth="4" 
+                          fill="none"
+                          opacity="0.7" />
+                    <path d="M520 160 L300 240" 
+                          stroke="url(#shine-gradient)" 
+                          strokeWidth="4" 
+                          fill="none"
+                          opacity="0.7" />
+                    
+                    {/* Bottom edges shine */}
+                    <path d="M80 400 L300 480" 
+                          stroke="url(#shine-gradient)" 
+                          strokeWidth="4" 
+                          fill="none"
+                          opacity="0.6" />
+                    <path d="M520 400 L300 480" 
+                          stroke="url(#shine-gradient)" 
+                          strokeWidth="4" 
+                          fill="none"
+                          opacity="0.6" />
+                  </g>
                   
-                  {/* Vertical line from center to bottom */}
-                  <path d="M300 240 L300 480" 
-                        stroke="url(#indigo-glow-right)" 
-                        strokeWidth="3" 
-                        opacity="0.85"
-                        className="drop-shadow-[0_0_28px_rgba(99,102,241,0.9)]" />
+                  {/* Center vertical line with enhanced glow - full line */}
+                  <g filter="url(#center-glow)">
+                    <path d="M300 80 L300 240" 
+                          stroke="url(#indigo-glow-right)" 
+                          strokeWidth="3.5" 
+                          opacity="1"
+                          className="drop-shadow-[0_0_40px_rgba(129,140,248,1)]" />
+                    
+                    <path d="M300 240 L300 480" 
+                          stroke="url(#indigo-glow-right)" 
+                          strokeWidth="3.5" 
+                          opacity="0.9"
+                          className="drop-shadow-[0_0_35px_rgba(99,102,241,1)]" />
+                  </g>
                   
                   {/* Left internal line - very visible */}
                   <path d="M80 160 L300 240" 

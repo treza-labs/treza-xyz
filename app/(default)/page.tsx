@@ -35,6 +35,7 @@ import Features from "@/components/features";
 import SplitCarousel from "@/components/split-carousel";
 import Clients from "@/components/clients";
 import Faqs from "@/components/faqs";
+import UseCases from "@/components/use-cases";
 import Cta from "@/components/cta";
 
 export default function Home() {
@@ -65,6 +66,10 @@ export default function Home() {
       
       <div className="mt-16 md:mt-24">
         <ApplicationsTeaser />
+      </div>
+      
+      <div className="mt-16 md:mt-24">
+        <UseCases />
       </div>
       
       <div className="mt-16 md:mt-24">

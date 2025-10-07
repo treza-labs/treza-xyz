@@ -48,7 +48,8 @@
   --text-7xl--letter-spacing: -0.0268em;
 
   --animate-shine: shine 5s ease-in-out 500ms infinite;
-  --animate-gradient: gradient 6s linear infinite;  
+  --animate-gradient: gradient 6s linear infinite;
+  --animate-float: float 8s ease-in-out infinite;
 
   @keyframes shine {
     0% {
@@ -73,6 +74,26 @@
   @keyframes gradient {
     to {
       background-position: 200% center;
+    }
+  }
+  @keyframes float {
+    0%, 100% {
+      transform: scale(1);
+    }
+    33% {
+      transform: scale(1.02);
+    }
+    34% {
+      transform: scale(0.98);
+    }
+    35% {
+      transform: scale(1.03);
+    }
+    66% {
+      transform: scale(0.99);
+    }
+    67% {
+      transform: scale(1.01);
     }
   }
 }

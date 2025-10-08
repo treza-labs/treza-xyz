@@ -41,17 +41,10 @@ const teamMembers = [
   },
   {
     image: null, // Use placeholder avatar
-    name: "Lukas",
-    role: "AI Engineer",
-    description: "Lukas is a senior engineer focused on privacy-preserving AI systems that execute sensitive tasks with cryptographic guarantees.",
-    link: "https://t.me/itsLukasx",
-  },  
-  {
-    image: BrandonImg,
-    name: "Brandon",
-    role: "Engineer",
-    description: "Brandon brings extensive experience with Rust and Solidity development, specializing in smart contracts and blockchain infrastructure.",
-    link: "https://github.com/btorressz",
+    name: "Nicholas",
+    role: "Advisor",
+    description: "Nicholas is a cloud solutions architect with extensive experience at Apple, Fox, and Verizon, bringing deep expertise in enterprise cloud infrastructure.",
+    link: "https://www.linkedin.com/in/nicholasstokes/",
   },
   {
     image: AlanImg,
@@ -61,11 +54,11 @@ const teamMembers = [
     link: "https://www.linkedin.com/in/alan-d-274520210/",
   },
   {
-    image: null, // Use placeholder avatar
-    name: "Nicholas",
-    role: "Advisor",
-    description: "Nicholas is a cloud solutions architect with extensive experience at Apple, Fox, and Verizon, bringing deep expertise in enterprise cloud infrastructure.",
-    link: "https://www.linkedin.com/in/nicholasstokes/",
+    image: BrandonImg,
+    name: "Brandon",
+    role: "Engineer",
+    description: "Brandon brings extensive experience with Rust and Solidity development, specializing in smart contracts and blockchain infrastructure.",
+    link: "https://github.com/btorressz",
   },
   // {
   //   image: null, // Use placeholder avatar

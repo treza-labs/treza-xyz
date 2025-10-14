@@ -1,9 +1,9 @@
 export const metadata = {
-  title: "Treza Network - Private enclaves for any workload",
-  description: "Deploy your applications in hardware-protected enclaves with cryptographic privacy guarantees. Run Docker containers on AWS Nitro, Google Cloud, and Azure's trusted execution environments.",
+  title: "Treza Network - Privacy infrastructure for crypto and finance",
+  description: "Deploy your applications in hardware-protected enclaves with cryptographic privacy guarantees. Run containers, APIs and AI workloads with simple, privacy-focused developer tools.",
   openGraph: {
-    title: "Treza Network - Private enclaves for any workload",
-    description: "Deploy your applications in hardware-protected enclaves with cryptographic privacy guarantees. Run Docker containers on AWS Nitro, Google Cloud, and Azure's trusted execution environments.",
+    title: "Treza Network - Privacy infrastructure for crypto and finance",
+    description: "Deploy your applications in hardware-protected enclaves with cryptographic privacy guarantees. Run containers, APIs and AI workloads with simple, privacy-focused developer tools.",
     url: "https://trezalabs.com",
     siteName: "Treza Network",
     images: [
@@ -11,7 +11,7 @@ export const metadata = {
         url: "/images/treza-banner.png",
         width: 1200,
         height: 630,
-        alt: "Treza Network - Private enclaves for any workload",
+        alt: "Treza Network - Privacy infrastructure for crypto and finance",
       },
     ],
     locale: "en_US",
@@ -19,8 +19,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Treza Network - Private enclaves for any workload",
-    description: "Deploy your applications in hardware-protected enclaves with cryptographic privacy guarantees. Run Docker containers on AWS Nitro, Google Cloud, and Azure's trusted execution environments.",
+    title: "Treza Network - Privacy infrastructure for crypto and finance",
+    description: "Deploy your applications in hardware-protected enclaves with cryptographic privacy guarantees. Run containers, APIs and AI workloads with simple, privacy-focused developer tools.",
     images: ["/images/treza-banner.png"],
   },
 };

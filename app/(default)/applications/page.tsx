@@ -8,7 +8,7 @@ export const metadata = {
     siteName: "Treza Network",
     images: [
       {
-        url: "/images/treza-banner.png",
+        url: "/images/hero-meta.png",
         width: 1200,
         height: 630,
         alt: "Treza Network - Confidential Applications",
@@ -21,7 +21,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Confidential Applications - Treza Network",
     description: "Deploy pre-configured confidential applications with complete privacy protection. From trading bots to compliance tools, run business-critical applications in hardware-secured enclaves.",
-    images: ["/images/treza-banner.png"],
+    images: ["/images/hero-meta.png"],
   },
 };
 

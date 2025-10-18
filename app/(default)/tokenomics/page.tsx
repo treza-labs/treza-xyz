@@ -4,7 +4,7 @@ export const metadata = {
   openGraph: {
     title: "TREZA Tokenomics - Token Distribution Analysis",
     description: "Explore TREZA token allocation and distribution with interactive visualizations.",
-    url: "https://trezalabs.com/tokenomics",
+    url: "/images/hero-meta.png",
     siteName: "Treza Network",
     images: [
       {

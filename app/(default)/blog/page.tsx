@@ -6,7 +6,7 @@ import PostItem from "@/app/(default)/blog/post-item";
 
 export const metadata = {
   title: "Blog - Treza",
-  description: "Latest insights on secure enclaves, autonomous agents, and trusted compute from the Treza team.",
+  description: "Latest insights on secure enclaves, privacy infrastructure, and trusted compute from the Treza team.",
 };
 
 import Cta from "@/components/cta";
@@ -36,7 +36,7 @@ export default function Blog() {
               </h1>
               <div className="mx-auto max-w-3xl">
                 <p className="text-xl text-indigo-200/65">
-                  Discover the latest insights on secure enclaves, autonomous agents, and trusted compute from
+                  Discover the latest insights on secure enclaves, privacy infrastructure, and trusted compute from
                   Treza.
                 </p>
               </div>

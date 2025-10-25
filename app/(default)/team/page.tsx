@@ -1,6 +1,6 @@
 export const metadata = {
   title: "About us - Treza",
-  description: "Meet the team behind Treza - secure enclaves for autonomous agents with trusted compute and automated execution.",
+  description: "Meet the team behind Treza - secure enclaves for privacy infrastructure with trusted compute and automated execution.",
 };
 
 import PageIllustration from "@/components/page-illustration";

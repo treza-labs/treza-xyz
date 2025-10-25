@@ -22,7 +22,7 @@ const teamMembers = [
     image: TeamImg01,
     name: "Alex",
     role: "Co Founder, Developer",
-    description: "Former Marvel Studios and AOL engineer leading Treza's secure compute platform for autonomous agents.",
+    description: "Former Marvel Studios and AOL engineer building Treza's privacy-first secure compute platform.",
     link: "https://www.linkedin.com/in/alexdaro/",
   },
   {

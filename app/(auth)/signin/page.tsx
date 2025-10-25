@@ -1,6 +1,6 @@
 export const metadata = {
   title: "Sign In - Treza",
-  description: "Sign in to your Treza account to access secure enclaves for your autonomous agents.",
+  description: "Sign in to your Treza account to access secure enclaves for your privacy-preserving applications.",
 };
 
 import Link from "next/link";

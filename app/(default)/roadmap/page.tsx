@@ -156,30 +156,38 @@ export const metadata = {
                   <div className="pl-2">
                     <div className="mb-4">
                       <h4 className="text-lg font-semibold text-indigo-300 mb-2">Objective</h4>
-                      <p className="text-gray-300 mb-4">Build smart contracts that verify and utilize privacy attestation documents from private enclaves. Enable trustless verification of off-chain computation results through programmable on-chain validation.</p>
+                      <p className="text-gray-300 mb-4">Build smart contracts that verify and utilize privacy attestation documents from private enclaves. Develop complementary zero-knowledge proof systems and fully homomorphic encryption capabilities for advanced privacy-preserving computation. Enable trustless verification of off-chain computation results through programmable on-chain validation with cryptographic privacy guarantees.</p>
                     </div>
                     <div className="mb-4">
                       <h4 className="text-lg font-semibold text-indigo-300 mb-2">Why It Matters</h4>
-                      <p className="text-gray-300 mb-4">Bridging off-chain private execution with on-chain verification creates trustless computation workflows. Smart contracts can programmatically validate execution integrity without requiring trust in centralized attestation authorities.</p>
+                      <p className="text-gray-300 mb-4">Bridging off-chain private execution with on-chain verification creates trustless computation workflows. Zero-knowledge proofs enable verification of computation correctness without revealing sensitive data, while FHE allows computation over encrypted data without decryption. Smart contracts can programmatically validate execution integrity without requiring trust in centralized attestation authorities.</p>
                     </div>
                     <div>
                       <h4 className="text-lg font-semibold text-indigo-300 mb-2">What We're Building</h4>
                       <ul className="space-y-2 text-gray-300">
                         <li className="flex items-start">
                           <span className="text-indigo-400 mr-2">•</span>
-                          Smart contract libraries for verifying TEE privacy attestation documents and execution proofs
+                          Smart contract libraries for verifying TEE attestation documents and execution proofs
                         </li>
                         <li className="flex items-start">
                           <span className="text-indigo-400 mr-2">•</span>
-                          On-chain validation of off-chain computation results with cryptographic verification
+                          Zero-knowledge proof circuits using zk-SNARKs and zk-STARKs for privacy-preserving verification
                         </li>
                         <li className="flex items-start">
                           <span className="text-indigo-400 mr-2">•</span>
-                          Programmable verification logic supporting multiple TEE architectures and attestation formats
+                          Fully homomorphic encryption (FHE) schemes with TFHE and CKKS implementations
                         </li>
                         <li className="flex items-start">
                           <span className="text-indigo-400 mr-2">•</span>
-                          Integration APIs enabling DeFi and Web3 applications to consume verified computation results
+                          On-chain validation of off-chain computation with recursive proof composition
+                        </li>
+                        <li className="flex items-start">
+                          <span className="text-indigo-400 mr-2">•</span>
+                          Programmable verification logic supporting multiple TEE, ZK, and FHE systems
+                        </li>
+                        <li className="flex items-start">
+                          <span className="text-indigo-400 mr-2">•</span>
+                          Integration APIs for DeFi and Web3 applications with privacy guarantees
                         </li>
                       </ul>
                     </div>
